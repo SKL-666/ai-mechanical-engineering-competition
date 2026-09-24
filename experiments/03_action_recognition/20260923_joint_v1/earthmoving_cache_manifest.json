@@ -1,0 +1,1552 @@
+{
+  "rows": 309,
+  "candidate_index_sha256": "b1d222291096df480bf54351fed8a6b2d8d176e876ed19f468702a2836537fbb",
+  "validation_index_sha256": "fc51a7fb60e906202def10ae71a6ff7a78d882e5f9ad5e34dbf74057448a294e",
+  "records": [
+    {
+      "sample_id": "earthmoving:140555_r001_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/566adf47c0ef39078b0ada18.npy",
+      "sha256": "dc0f2b7323048bd81531cc84c9f0c5463252cb7755532d24f2459ddbcdca0cb7"
+    },
+    {
+      "sample_id": "earthmoving:140555_r002_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6c784daa3e2594e4c5b73d18.npy",
+      "sha256": "df27238065d6df52a8ed16aace63ad86d028aaf2a35f8c2eb0f0aad960e0759e"
+    },
+    {
+      "sample_id": "earthmoving:140555_r003_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/76c5166da2840050d662ce13.npy",
+      "sha256": "93f7ca393620c9331b4502cb3e7a49750a6cd9eed731e6448f53b3e34ee5a23b"
+    },
+    {
+      "sample_id": "earthmoving:140555_r004_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/39c9f520c32898b88cfbe51d.npy",
+      "sha256": "2411303e5e842e492fbda7f61f1fa0f3ef02b49fba6a2c5caf97e146183ca43b"
+    },
+    {
+      "sample_id": "earthmoving:140555_r005_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0c323d743022cc1ab35ecada.npy",
+      "sha256": "106a8b689cf0edc57c18100ae79b9260c11a5d4e3e2a0f4f771e4dd91db04c60"
+    },
+    {
+      "sample_id": "earthmoving:140555_r006_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/85a63aeb1a32fc8d23c1c73b.npy",
+      "sha256": "c0233d6ec7d0a7e0904e46e6a052705c7575715cbaada2c3197a34c114381383"
+    },
+    {
+      "sample_id": "earthmoving:140555_r007_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c5d173be642b39c167f00f9b.npy",
+      "sha256": "7a58f48d82744fa271a256164b8b1ac535b3fab07216f80b542421850302a8bc"
+    },
+    {
+      "sample_id": "earthmoving:140555_r008_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0b61d793880727e0f2c558e0.npy",
+      "sha256": "07176245b769bd9df85eb7e893910fe2abbb1eaa8ba95dbb56dad1780bd05e1f"
+    },
+    {
+      "sample_id": "earthmoving:140555_r009_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8fbe8fe345d05d85f3dbbb5c.npy",
+      "sha256": "4e50747515a6e523e9782387e23238f220c690bd3ab02d7f0de76a379c4431de"
+    },
+    {
+      "sample_id": "earthmoving:140555_r010_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b6ede4ec1cc118cc8cbbbd92.npy",
+      "sha256": "ecaed261ac12f097b4d4b3b412fe1ff78a7389465fc695fb076c9f3099884733"
+    },
+    {
+      "sample_id": "earthmoving:140555_r011_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3939eb9bea78f4d596d22950.npy",
+      "sha256": "03e262bd7729d00c755c4152492d343c7d8648702402d28b49beee602b6e2136"
+    },
+    {
+      "sample_id": "earthmoving:140555_r012_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d020bca6d404977a3c2011c2.npy",
+      "sha256": "63eeecf6b89536c3f621080453ce030f87bfcd7bd0828463363e21679041ffb1"
+    },
+    {
+      "sample_id": "earthmoving:140555_r013_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1e0bf58668f40be966b9982c.npy",
+      "sha256": "b9552ac45b62c35cc344f697a8f3836fbb4f7ac7bc7c90d259b984061f0250c0"
+    },
+    {
+      "sample_id": "earthmoving:140555_r014_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/902dd1c886b8e26a5112797c.npy",
+      "sha256": "95f940ca052731bf3a43fd07019ed3b7326d69ea91c4dd1d4f7af236d9a82fdf"
+    },
+    {
+      "sample_id": "earthmoving:140555_r015_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/2d542bc8fd6aeb4a098d82bc.npy",
+      "sha256": "4ad04415fc861b9cc1f1f17f46ba07adbb54d26ed5422e66d0a1c5225116fff9"
+    },
+    {
+      "sample_id": "earthmoving:140555_r016_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/fe0874860174275ca68968bb.npy",
+      "sha256": "57b56e6cb24c73b94055cffcb99958ea388eb6fa1a008045244239bdbf1eb6c2"
+    },
+    {
+      "sample_id": "earthmoving:140555_r017_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d47b834ab60270d459d21287.npy",
+      "sha256": "3d35d96497ce96a04ae358d7b1c5f521a07543408da3cc01c06ed82f70263714"
+    },
+    {
+      "sample_id": "earthmoving:140555_r018_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3c32717624285a734f012ae8.npy",
+      "sha256": "8f2ce3bc56511883772b7cd70e5faea70f1314a714ea7f039094337ce3eeac1b"
+    },
+    {
+      "sample_id": "earthmoving:140555_r019_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/66cbd45ebc3c5a512d19e0c5.npy",
+      "sha256": "f1bc4367dcb04eff3bad74192a76eb0e7e26e9d0056206140de75125ab8311fa"
+    },
+    {
+      "sample_id": "earthmoving:140555_r020_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1990a3f970d402d2c2457136.npy",
+      "sha256": "e82e3c0766e5b4d957b040fa0d7491d70ee62f32d566ca4b5888836a01da3bb6"
+    },
+    {
+      "sample_id": "earthmoving:140555_r021_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/cb741cbeda4538d12ec92ff7.npy",
+      "sha256": "dc1844537a70f5a7b3e71d217f6e8dd88c95907edc4005bf1c8a452b595bfea0"
+    },
+    {
+      "sample_id": "earthmoving:140555_r022_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b28063614c74c7c4c78ffef7.npy",
+      "sha256": "15bb11cf56e625605e74ffe7c7008c9c8c15f59622ac32969af1eb0a89d4efda"
+    },
+    {
+      "sample_id": "earthmoving:140555_r023_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f731ab231ff1f64de7c30210.npy",
+      "sha256": "7a2d071f25be9c9758a81b7128a858b63fee0ba1a9c2912d3b6863b2499f59ae"
+    },
+    {
+      "sample_id": "earthmoving:140555_r024_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f3241e068fe971547015ec28.npy",
+      "sha256": "cda7c171ffb9561b1e3e1774df61539ce1931a6fee0e4d1796c83456535d876a"
+    },
+    {
+      "sample_id": "earthmoving:140555_r025_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/09aefd76202124a023cdafd3.npy",
+      "sha256": "c418d838f26726dd29ae894b450238827199700e040c23b6d9226671ffbaff03"
+    },
+    {
+      "sample_id": "earthmoving:140555_r026_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/17b06c327d64b593ac944801.npy",
+      "sha256": "ca7f751742042ecafdc962d5cb32159a44b644dd393f5e89f7510f0db4f245f5"
+    },
+    {
+      "sample_id": "earthmoving:140555_r027_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/7cf2702d3d73712ffafed1ac.npy",
+      "sha256": "169f1b01993c1846be3d7656bdeaaeb2b893cf8bfaf4aaa599396e0ac3edd124"
+    },
+    {
+      "sample_id": "earthmoving:140555_r028_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3562ed0e805d8e1fe3ee4326.npy",
+      "sha256": "7da0c1f51e3cd126c80fe7371aa916e9f26187de6b717e11a644a62e8168125e"
+    },
+    {
+      "sample_id": "earthmoving:140555_r029_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3e7f251f2bec79e0c04b0cec.npy",
+      "sha256": "4ed98adfeb38d9a8b95b7e047c30719567030cf12eaccf4f2b8279b999b649f7"
+    },
+    {
+      "sample_id": "earthmoving:140555_r030_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/48b5ba5fbd7ce983a0b5cf41.npy",
+      "sha256": "72ec62d76e9993c753f9fb10c3cf5ae2da0b72fc2701a15ca17ad71e157089e9"
+    },
+    {
+      "sample_id": "earthmoving:140555_r031_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/021bd90f4e1481154d3b163f.npy",
+      "sha256": "253b6dbb4e49a8efa6c051d8ab26801b10854b8c1088cb67f35b51d24c050f58"
+    },
+    {
+      "sample_id": "earthmoving:140555_r032_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a7136b4f5a00e02efcaec9f6.npy",
+      "sha256": "8b7c3ced0d224afe610ed9fa6af8a1d1afc6437e22087ee1643ec7d0da19d456"
+    },
+    {
+      "sample_id": "earthmoving:140555_r033_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/df0261da783692682fbdb681.npy",
+      "sha256": "291cc0865976dc63a076272115673f0b9590ffc3415bcbd00c8599aaddf0a073"
+    },
+    {
+      "sample_id": "earthmoving:140555_r034_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/bd931e2baef4764955e41f43.npy",
+      "sha256": "c4dc5a5bf03798e4592a22f2d911ffd1d09d0618d7f48406521b9ecc219634ad"
+    },
+    {
+      "sample_id": "earthmoving:140555_r035_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/29edb20ba40b386a4ece7de0.npy",
+      "sha256": "1947edbbc61c8f6b124a1b5bdba64928e51ff34346db02c0bea4a8296469965d"
+    },
+    {
+      "sample_id": "earthmoving:140555_r036_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/029dfa28a64abef4c9dc44e2.npy",
+      "sha256": "5de905cb071b43432d3ea7b40c9a8d2b098b7fb8d91a850a609f9d8522c5b1cd"
+    },
+    {
+      "sample_id": "earthmoving:140555_r037_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b023305152d268c0d56901c1.npy",
+      "sha256": "7360a5b92278a4b49de8d4259be8e01c16568ca59d8743a73a877c5eff560491"
+    },
+    {
+      "sample_id": "earthmoving:140555_r038_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/7a408c7a2d849346075363a9.npy",
+      "sha256": "b06ed7e1a43e7cab0d1a3452360e5f08fff406a41feaf65f24f88e4211c7dc7e"
+    },
+    {
+      "sample_id": "earthmoving:140555_r039_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/32a8d5d44880d18b5422395f.npy",
+      "sha256": "3725a1915872769608a445d4b11839c38dafc83e6ced0ad7807298a15a32fbf2"
+    },
+    {
+      "sample_id": "earthmoving:140555_r040_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a66521ee069596f3c19151ae.npy",
+      "sha256": "53780baa448a08a978a3a487b0ee1efa5f266f2b159925ee9df92939ccbcfa08"
+    },
+    {
+      "sample_id": "earthmoving:140555_r041_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/876167ed2a0cf4c21f880406.npy",
+      "sha256": "63489eed5c9d28566f830f76a28a8e6019cd3bdcb989fa2751a5103929b00509"
+    },
+    {
+      "sample_id": "earthmoving:140555_r042_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/e3ce6e1d877773424bd62eb0.npy",
+      "sha256": "cf94daaa5461254b0e3efac2796f9307cc9cd03ddcaf42752b2eab5b653df258"
+    },
+    {
+      "sample_id": "earthmoving:140555_r043_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d43a7d1a77b150be3fefbb1a.npy",
+      "sha256": "a3ccf49322bddce84c4b5745bc7a0a5bd90a678f2ef1b743eec93575a7ad0fa3"
+    },
+    {
+      "sample_id": "earthmoving:140555_r044_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d32f57af613086dad5b14f8d.npy",
+      "sha256": "43d05d75146cba18b662763d4b523745be88d16f55d1ee7612bd01516d388075"
+    },
+    {
+      "sample_id": "earthmoving:140555_r045_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9858f0cf7f53a140a83f8a1a.npy",
+      "sha256": "2d8fc98d9eefb78516f5954ab9cb7f8411f6d8c3ec105d1c8e9f848ed8628be3"
+    },
+    {
+      "sample_id": "earthmoving:140555_r046_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/7135f8ed47ca575149a450a5.npy",
+      "sha256": "7c68c15e880675fae5a3c444d2276bd7c8aa72d9fc23e23f5df8a88110b4e154"
+    },
+    {
+      "sample_id": "earthmoving:140555_r047_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d1a9d74a0df2aac80e0c9f74.npy",
+      "sha256": "22fcf43a9bccaef160e5911683d3ad2533675d7a005ebd82c5233ae08c6aa38c"
+    },
+    {
+      "sample_id": "earthmoving:140555_r048_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/acebca49df75e44d3db3d4bb.npy",
+      "sha256": "4b75944675ed84440c7a01e71cd5449ed58e4572df07a832b0609ea347f32b6e"
+    },
+    {
+      "sample_id": "earthmoving:143110_r001_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b747c355256022b031c9c66f.npy",
+      "sha256": "b7325f233fb5a967160ea6b06162a9d8927614b085592b9c9c75968f6cec38b5"
+    },
+    {
+      "sample_id": "earthmoving:143110_r002_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ee39cb37ffc1fef8089b9ea8.npy",
+      "sha256": "8596d4180e7e1025a9d1dfc0fff1caaca431be0184a765610e2203906caff08a"
+    },
+    {
+      "sample_id": "earthmoving:143110_r003_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/04d43398bf6a4edafdd2572e.npy",
+      "sha256": "4e2d30a8ba19cba5ccef421a8c1b9711c927dbdd024287adf7a56d6773b3f925"
+    },
+    {
+      "sample_id": "earthmoving:143110_r004_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/62d4a7d91e79237b33b0eded.npy",
+      "sha256": "5bd29d5139c2a07280a6a68e8a95c185f19f064b0c68bd2d91b1513084417783"
+    },
+    {
+      "sample_id": "earthmoving:143110_r005_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0a671be5a7a57c3a107d8797.npy",
+      "sha256": "6f351640cb9f2afff758441af3b21dda3b3aaca1f77f84fd50b0f345cb0055f0"
+    },
+    {
+      "sample_id": "earthmoving:143110_r006_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4b9457fd6d739c6779d9cae6.npy",
+      "sha256": "3c8567433f67d2d7a37e97d9e5ad3aee2cb7dbd8cb6092caafdded9f761a1baa"
+    },
+    {
+      "sample_id": "earthmoving:143110_r007_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/15a9124666a87f94b46c63c2.npy",
+      "sha256": "27de8c443257383c957fefe6888020a05e758f64500a101ee4903d7e20b143b9"
+    },
+    {
+      "sample_id": "earthmoving:143110_r008_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/008dac6c7cf8521710fe4d19.npy",
+      "sha256": "5b21f5a193d604a0226fbbf15f47b0ce47a3716dc9112222bd04a9bdf049a8f6"
+    },
+    {
+      "sample_id": "earthmoving:143110_r009_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/72c75b5d110f098edd1bc42a.npy",
+      "sha256": "65dc352d62c8c4b5b839a117b0de85ac1ae2fe75cc965d002852059d3794e32c"
+    },
+    {
+      "sample_id": "earthmoving:143110_r010_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ac14db51c357b61195b0b352.npy",
+      "sha256": "6d2541ee0755377f15d8994377bf04ab33e0ae65b8507f2e5eb0665dae1a1ba1"
+    },
+    {
+      "sample_id": "earthmoving:143110_r011_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b02db7bf3a356e855e4bbba8.npy",
+      "sha256": "401e7562a14b5fecb39d556802653c66c7cc905c4a7c118de97f900e6ffd887a"
+    },
+    {
+      "sample_id": "earthmoving:143110_r012_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/308bb12c42f4d2f2f0611514.npy",
+      "sha256": "e7c4dc90477469d7cb7c82c710bf9942a364edf308abac96f03c793ad1e7de98"
+    },
+    {
+      "sample_id": "earthmoving:143110_r013_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b635c7fc50dd45416e90c9a5.npy",
+      "sha256": "dd7d36a0db86fee1bee8317166d357dafd0af3e647d5fde062647520a46d74cb"
+    },
+    {
+      "sample_id": "earthmoving:143110_r014_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c53216770d4a37ec2490ceb9.npy",
+      "sha256": "6dba58129b639417ab9df90bb2fa9a168e23f9c791180e58b4535675e64a3c25"
+    },
+    {
+      "sample_id": "earthmoving:143110_r015_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/085494a8104096dba28b6fdd.npy",
+      "sha256": "1f628dfb267881bc2b8dc3f22c97248386b20772b4ffe32b931a77d20e2e3a46"
+    },
+    {
+      "sample_id": "earthmoving:143110_r016_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9ea88fde7e176e30c77d7216.npy",
+      "sha256": "76faa620b0ced62458e7301999ba21023feaaf7ac1ce304639f89d4424efb2bc"
+    },
+    {
+      "sample_id": "earthmoving:143110_r017_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/84c1b6f18bdbc7bd341866aa.npy",
+      "sha256": "d7a115af056c1c0350ffad635bd9a83e6fada9b4a11c9a6e06361595d48288e8"
+    },
+    {
+      "sample_id": "earthmoving:143110_r018_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/e99d3513239f1851418be394.npy",
+      "sha256": "cc5a6ebec2795294bcad964c8e11553612926c4e4a63034296eec285443311a9"
+    },
+    {
+      "sample_id": "earthmoving:143110_r019_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/2e27e33052f5c62f6fb0b829.npy",
+      "sha256": "63fb38d31dd522416c84460a483743cbe743fe5130e5684aaa5cf1d14c9acee2"
+    },
+    {
+      "sample_id": "earthmoving:143110_r020_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c9ce5dc96cf0a9fad18dedc5.npy",
+      "sha256": "ea2706539c2ac3697ae614a9a05d21359050214afe346ae60e378f16cccc76a7"
+    },
+    {
+      "sample_id": "earthmoving:143110_r021_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/15d57b1648005f63997fc1e9.npy",
+      "sha256": "7d76d3b0bb5ad043354d0bea8a0f9506a2eb2ea69ec1b68a6c6ec9405ac187a1"
+    },
+    {
+      "sample_id": "earthmoving:143110_r022_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/009bda0ca3b25b555bcd1112.npy",
+      "sha256": "0969f34c567211f086ec09c4fa72802d30057d3f7d8af196ed7650d693aae3c0"
+    },
+    {
+      "sample_id": "earthmoving:143110_r023_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/61be2266912f8dac1bf53804.npy",
+      "sha256": "461ea8bc4497272b9c0fb98a1f5f3a4975e05c93c767e547e9f3091b75b68d0b"
+    },
+    {
+      "sample_id": "earthmoving:143110_r024_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a56185c2930f8101e81c9b0a.npy",
+      "sha256": "ca78455d2ff224c88ac4a7310fbd26c8a85d45b247e7030f2492242dfb220bb1"
+    },
+    {
+      "sample_id": "earthmoving:143110_r025_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4c7616cf863fb897e0bbdf95.npy",
+      "sha256": "b64501b700d89be626c44d52077b7d4831a4dedb989b151155ac4536223a9b83"
+    },
+    {
+      "sample_id": "earthmoving:143110_r026_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d716e588d953f148597bc8fb.npy",
+      "sha256": "bb27dbc563ec1b693c9c0243580edfe99f8ca3d0d9a60542e805d7d9a49faae0"
+    },
+    {
+      "sample_id": "earthmoving:143110_r027_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ef9446595ed646ba1eca1b0a.npy",
+      "sha256": "c6cd90999bb0facfa5e2aefbb159acec08d0d68981bb91dca79a3c8984276ae5"
+    },
+    {
+      "sample_id": "earthmoving:143110_r028_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/403169a14521e7e290a4b6ef.npy",
+      "sha256": "34f8a08ab5085a9a309a77b507aaa54e9e5898642ed21be9bd1fd7501bc619cb"
+    },
+    {
+      "sample_id": "earthmoving:143110_r029_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/feec7e2d173aaa415cd86727.npy",
+      "sha256": "7d4c0c3c9f88c8167a3d818fa9919c8268c79295c3fd9cbacab568bf7d2a08e3"
+    },
+    {
+      "sample_id": "earthmoving:143110_r030_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0e9f7f45ce4d81901c6bc961.npy",
+      "sha256": "8f814bc2caacb60b47ca4768ee6b29958185b022abdb92ad67062cc2e30e7c12"
+    },
+    {
+      "sample_id": "earthmoving:143110_r031_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/75f402b2cb85275c3f4e2ec3.npy",
+      "sha256": "45ed2216985ae1b434a28ef74de2a3fa281f08dfc4e51f66259fa8fc417d6a93"
+    },
+    {
+      "sample_id": "earthmoving:143110_r032_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/35ee8b18985c69b829be5a4b.npy",
+      "sha256": "bc79ee197489171596d6fdc6f2c81d3d97e5e05c3937de4725715c5069f1979d"
+    },
+    {
+      "sample_id": "earthmoving:143110_r033_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0671d4f1861ac77b22749d44.npy",
+      "sha256": "2ba57324183f4a4e828fed947320e60f9b1fd4b29fa93bd2dfeda467f693dd44"
+    },
+    {
+      "sample_id": "earthmoving:143110_r034_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c3f076662f1cf2195f097099.npy",
+      "sha256": "e1768b8773ccc55d2f867692cd41ee3dce764d023e4fcef88788f46fba062857"
+    },
+    {
+      "sample_id": "earthmoving:143110_r035_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/cefc75fc9a88b5fdfe275700.npy",
+      "sha256": "bffe6c8937d846d1a690ee869842082e04262ca59ad2c02f79b222e861b5ce20"
+    },
+    {
+      "sample_id": "earthmoving:143110_r036_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/145b9d5397ce535037072413.npy",
+      "sha256": "82eeade3698f2c5ed54670cccedc944786ed54e4493321b7216493721ba6d56a"
+    },
+    {
+      "sample_id": "earthmoving:143110_r037_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b96c5ec6ac7bec8d6d061238.npy",
+      "sha256": "0b3e1abc81d28ca48386e8a97efcd3ca80c0aaf2024e3c925e213fb53613b5ef"
+    },
+    {
+      "sample_id": "earthmoving:143110_r038_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/40d5a861c0c3fa9f85030b40.npy",
+      "sha256": "916a443215a1413d615e303c0efd393c367f6f211f5d11562e30250de6a6879c"
+    },
+    {
+      "sample_id": "earthmoving:143110_r039_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0ab8308579fa62cc1842cd29.npy",
+      "sha256": "67bc7e3d7de52dcc0821572100b195d4e225476fb7c155c546cb3397d560ff7e"
+    },
+    {
+      "sample_id": "earthmoving:143110_r040_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ac235f2359378f2017826bb9.npy",
+      "sha256": "a71bc59ae2f4d41819bffcec990c166732b8ee62959c9ef9d4c6669aaa40f785"
+    },
+    {
+      "sample_id": "earthmoving:143110_r041_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/87472380db2ed5930ae538e6.npy",
+      "sha256": "edd39c6e42db296f4b6e0c25fff9fac8073f04abc65701e8793fd9905deac336"
+    },
+    {
+      "sample_id": "earthmoving:143110_r042_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/53794d33ae8d54a408eda886.npy",
+      "sha256": "1027dad945156205dcc67c4d6273ac99188a1c0cea993e9b32648cbb909bef47"
+    },
+    {
+      "sample_id": "earthmoving:143110_r043_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ded85805ff35b4554ace24ea.npy",
+      "sha256": "d05c8238a431cb0192cca41b817c84be41eb28e3d4e600bc4a7ff86837d2453d"
+    },
+    {
+      "sample_id": "earthmoving:143110_r044_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/78c20640bb14489764534fb6.npy",
+      "sha256": "f1e82475e49161c84b3290ecc852128b093b5295091521146fb9aaa887eeee76"
+    },
+    {
+      "sample_id": "earthmoving:143110_r045_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/840543b8669f6ecd3192d24e.npy",
+      "sha256": "0525373e6955b48d20b6c316570f9bb2967fb44091c0fd79ecdb3eadd5e5c7cd"
+    },
+    {
+      "sample_id": "earthmoving:144206_r001_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0d8361994272c3289c7efb1f.npy",
+      "sha256": "359a99b9410c65a68c7b0d4762af3e20d93ed0c2ac9585222a4ab7026a05600a"
+    },
+    {
+      "sample_id": "earthmoving:144206_r002_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/751dd6207d82ed82e759fa76.npy",
+      "sha256": "199502c9c2992f44d18a74c5ef3dbca3554f73fb2c7dd4d0a5d95d69164d7081"
+    },
+    {
+      "sample_id": "earthmoving:144206_r003_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b22c9c965edaebda8fd8ec3d.npy",
+      "sha256": "4cbc1b25cf8629a02bffe19b33385a4014ee24d5108ab082f20b5830a3f85ef5"
+    },
+    {
+      "sample_id": "earthmoving:144206_r004_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5543ecfc227d293d75f15eda.npy",
+      "sha256": "c7e90fd46c49d9904397294b21ee41d7065b6bcf76c4d036ab95ad8a46c125f5"
+    },
+    {
+      "sample_id": "earthmoving:144206_r005_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5ed4f6e61f66b35d75884b79.npy",
+      "sha256": "05a4597701f5132b3e049d657d89583c9d18261dbb2333d70504c2d302ed6909"
+    },
+    {
+      "sample_id": "earthmoving:144206_r006_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6d9361ce31a2c34fd9414c34.npy",
+      "sha256": "09cd1c80c191ee2235f4bbd65be6a1001240b7b0b6e9fdc6e382e7c1c301cac2"
+    },
+    {
+      "sample_id": "earthmoving:144206_r007_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8f39d978fb8bf1b8c87253cd.npy",
+      "sha256": "6eb97959cca94a45719b07adc7b4ed4202c7003b2b3be37bc9df82d47ab3a7f9"
+    },
+    {
+      "sample_id": "earthmoving:144206_r008_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a10a40342faafe210fbcdc6e.npy",
+      "sha256": "028ae73cff354c6f86247768e933e9622a412ca0014ed58f84fd15a878ac62d8"
+    },
+    {
+      "sample_id": "earthmoving:144206_r009_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/899b6b0ddeec59ac94bf1a52.npy",
+      "sha256": "7cc41891e8e942684d361de09d52111bae8f0e32773a6e7e047946482560c1fa"
+    },
+    {
+      "sample_id": "earthmoving:144206_r010_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/fb8a0fb0ac130f3173e49ced.npy",
+      "sha256": "6e24230bc975bf47f78e07946f42acc6eb8522c74f4570893c7ebc887993e5a2"
+    },
+    {
+      "sample_id": "earthmoving:144206_r011_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8c619a5269effa7f7c4aa5e2.npy",
+      "sha256": "a6490ec6f9217c5e8a443346c02d60acf787877245ca18776818072cc44e4685"
+    },
+    {
+      "sample_id": "earthmoving:144206_r012_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b03e1682d6ba090745a241bf.npy",
+      "sha256": "c7e08f4f25ba36d3ee5b2bb31af9bb5c6a672163e72d075fd7a008ebecf7426a"
+    },
+    {
+      "sample_id": "earthmoving:144206_r013_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/19efe0a160183b7f033ec191.npy",
+      "sha256": "78017c058ac4943fd8585dddbfdf311ce4fe3ad09f5fc1c9796d95575bc9cb31"
+    },
+    {
+      "sample_id": "earthmoving:144206_r014_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d1d2bce7de0104f4c18d092f.npy",
+      "sha256": "be1ca98e78a7a806ecf822d4d73a7394c1da9508c6bd76f7386a702dc75d1fcd"
+    },
+    {
+      "sample_id": "earthmoving:144206_r015_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6a1729e3723be6e182cdc5ac.npy",
+      "sha256": "1269c0ce188489f8b91f5bc6edbf25d1d6761b20bda875b5b870b91f9df8aca9"
+    },
+    {
+      "sample_id": "earthmoving:144206_r016_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1efb01cfe7bbf5d4b77cb641.npy",
+      "sha256": "5c8c33c6eab18fe188dcc473d4f46563276cef38022f84ed902b46a346f951bf"
+    },
+    {
+      "sample_id": "earthmoving:144206_r017_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/eeac7c0f2b0ef2b0c11e0a6a.npy",
+      "sha256": "f4d3eff87ea99d0611290edc7f791e1ebfce16eb6923731f38747340bda9c42b"
+    },
+    {
+      "sample_id": "earthmoving:144206_r018_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/e6ca87e5a97222ca24e9141e.npy",
+      "sha256": "6cb965e4810f6c5fa3107ddffa36d538fd91bfc2255cf6927c591849d7930afd"
+    },
+    {
+      "sample_id": "earthmoving:144206_r019_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/222d1efe1e6c71c550999c2b.npy",
+      "sha256": "4856f78a21ab44d5185dc5b1446205c5d5942e61e43b1b74bdf3f6156f00bd3b"
+    },
+    {
+      "sample_id": "earthmoving:144206_r020_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ad871c23cc7584868d3ae160.npy",
+      "sha256": "a70b2d4469529d8d578ecb70ac583e29adaccd0a15097465918bbb8d97d2097b"
+    },
+    {
+      "sample_id": "earthmoving:144206_r021_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d770a65bcadb0ef4be5ea89e.npy",
+      "sha256": "513d7ad58185a9fece449156bbc572c208f4cb5ebe34d178e5fabe7e0e9a7320"
+    },
+    {
+      "sample_id": "earthmoving:144206_r022_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6fe169edb96df6a70e462f1f.npy",
+      "sha256": "77099452858912c48d83bed447b988d1ccfb2856c2ff3d417324371016ff4252"
+    },
+    {
+      "sample_id": "earthmoving:144206_r023_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4e391dc763fd7ac2d12991f1.npy",
+      "sha256": "5ecc0dbf70dba3bd3d3d50350d12b2d68f33dbfbdb32b454f372655dd65e6a9e"
+    },
+    {
+      "sample_id": "earthmoving:144206_r024_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a4d240ed7b40a73e0419ae5e.npy",
+      "sha256": "710b9b267a581cc6acc4027648ca151a59e23c1237b32a8052c3d7a7442af1aa"
+    },
+    {
+      "sample_id": "earthmoving:144206_r025_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a6f8a8e1276c2468ca90e446.npy",
+      "sha256": "c0171a9cb2b60e12d3680cb3c6e71eefa6f819331ba22db3dde67e92fe536d78"
+    },
+    {
+      "sample_id": "earthmoving:144206_r026_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/7d3794d04d23a81d929faaaa.npy",
+      "sha256": "61a70b319a4203654aa73a583e3791b707577f92557fab6f8161aec0511f9601"
+    },
+    {
+      "sample_id": "earthmoving:144206_r027_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/e8724c80486f30ced54f0c94.npy",
+      "sha256": "fe7807571739a8cc62501c0f1f0eab96a7c0bc4d8a3d548a89d697d1f89769b6"
+    },
+    {
+      "sample_id": "earthmoving:144206_r028_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/27e1428c269b09145202d709.npy",
+      "sha256": "52755c27332f6e75fa1145181fa7169bf71970dbfafbe3e95fb073bf8970d11c"
+    },
+    {
+      "sample_id": "earthmoving:144206_r029_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9f9677c2398bbcec7f58dda8.npy",
+      "sha256": "3c4450b5d66934911e3e829b70f224ea5a57ecf7035ac4be51fcede2dc7c11b1"
+    },
+    {
+      "sample_id": "earthmoving:144206_r030_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/409e88750682efb23814dd26.npy",
+      "sha256": "434c46d97497bfa5bd03daf7e86f811fd85cfc37e4670af0f76c47793773307b"
+    },
+    {
+      "sample_id": "earthmoving:144206_r031_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/70b43a9e13937c83f28c86a5.npy",
+      "sha256": "ab9a0bf518f8a55353a50799cef3a93d02d8a007afdb7bf7820f6f55eccb8b3f"
+    },
+    {
+      "sample_id": "earthmoving:144206_r032_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f46cd6eb83b1e98278860156.npy",
+      "sha256": "623ef26d06093dc5723e54af7e5fa87209b1c03c0b5d9558f4e5df17a326ad26"
+    },
+    {
+      "sample_id": "earthmoving:144206_r033_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/7ce906c477007a37a9ab18be.npy",
+      "sha256": "56aa4b585de2f60377d7fb59318a91589edeed320fa1d7207ce88f97b62f863b"
+    },
+    {
+      "sample_id": "earthmoving:144206_r034_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/fa07a92ef1d15b6c0aad276a.npy",
+      "sha256": "892d638ce135e15ea89ebd2fc42ba90d8f02be496f97dee9d5bcafff947117f3"
+    },
+    {
+      "sample_id": "earthmoving:144206_r035_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3cfe61b37fbc6979f7e43233.npy",
+      "sha256": "6f17a9daace6804964f4b5fcf024e421b943bc33732f3211f8c8062b34fbc9bb"
+    },
+    {
+      "sample_id": "earthmoving:144206_r036_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/954eb5269fcf897e848894fc.npy",
+      "sha256": "a31b837b5f85f905d0b2970cc0f1b1834a63a83e268c4490550ed49221e58bd4"
+    },
+    {
+      "sample_id": "earthmoving:144206_r037_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c5b92657595c99fa917b52b6.npy",
+      "sha256": "cb5679b850357cf279e2aa9fe5e3a87a96333605179a12750109f24e30fdc095"
+    },
+    {
+      "sample_id": "earthmoving:151341_r001_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/124555e68186a47de5274d6e.npy",
+      "sha256": "7a55fe8886c7ee6947134cc768d4f2b9a6f208563e17a111d9683e57a76562e9"
+    },
+    {
+      "sample_id": "earthmoving:151341_r002_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/80d191c5962464ca46a34136.npy",
+      "sha256": "6b298ae54f5e1c860c235e66a20dffae4174d4f259d82b34a893b7058d4a0eca"
+    },
+    {
+      "sample_id": "earthmoving:151341_r003_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/eab5d6d1baa703d82ecc80f1.npy",
+      "sha256": "0377acb241e6e0075be0c8822f60dedb5c95638eb3134b4d2f930d35bf02a68e"
+    },
+    {
+      "sample_id": "earthmoving:151341_r004_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/70a5d0f6295f4e642858f338.npy",
+      "sha256": "3523479c14c0a112578330eadfaf36a769250f1f06b4f486891e7565f1a5b3f4"
+    },
+    {
+      "sample_id": "earthmoving:151341_r005_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5d8b2b7f88589bc9d867ea14.npy",
+      "sha256": "e6b8b3d250f5005d9f99ab12f5b765196fdd87db5e35c098d5968ec2f9aea5e4"
+    },
+    {
+      "sample_id": "earthmoving:151341_r006_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/496cc262a474db98508c2c01.npy",
+      "sha256": "1e9b7d023f70502827e54b7fb4e3cb9c988f8a2384dbfe0a94ff75091d563872"
+    },
+    {
+      "sample_id": "earthmoving:151341_r007_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/14a20462a15f4dcc147cd3cc.npy",
+      "sha256": "4b5c051c8c12c3da2aa143d32239d55aeb10ae777457f136fb043e197b908729"
+    },
+    {
+      "sample_id": "earthmoving:151341_r008_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5d1d0ba618289c068b70b032.npy",
+      "sha256": "bb5709303041db7ceb0ba49160d0901b683f22f59ddb33ed480962b3f845cc70"
+    },
+    {
+      "sample_id": "earthmoving:151341_r009_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9c798117170c89e0f92caca4.npy",
+      "sha256": "6a133c720356d3721669655a1514587624cc77035c9ac433551221431033bb47"
+    },
+    {
+      "sample_id": "earthmoving:151341_r010_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/655a71f6ae56e7c3bcd78786.npy",
+      "sha256": "7e55ed3cfaa166efae053551a180f43991700aaf6d24a3e1acc301077d752d3a"
+    },
+    {
+      "sample_id": "earthmoving:151341_r011_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/eec54280dacf5445e077b1d6.npy",
+      "sha256": "7d14965963353d04b9cc5fd17fd9e93f7477863c7fd5132dc4e97e9901e3c1a4"
+    },
+    {
+      "sample_id": "earthmoving:151341_r012_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9fa693b407b138fc78a1854a.npy",
+      "sha256": "5145510d3be804412b72a9eb2a1b72a390dd75169afd9f2e4b57489d832c464c"
+    },
+    {
+      "sample_id": "earthmoving:151341_r013_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/566f80034bcf1497f997b2df.npy",
+      "sha256": "e220bba101524a3feecaf56243eea5056b754f521f8058296cdacd1d9de66798"
+    },
+    {
+      "sample_id": "earthmoving:151341_r014_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/65da485e79976c7fefc825c3.npy",
+      "sha256": "9b4374d9a54865b64d72d60f1578ccc5f0b61c3703ddfc2f0e50da947ac8e8a4"
+    },
+    {
+      "sample_id": "earthmoving:151341_r015_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/84849e2df76b7bf2beb42c70.npy",
+      "sha256": "4e1578f5d66553fa68c0a05cebe1d4407a8b65282962bed7266cb0654061de74"
+    },
+    {
+      "sample_id": "earthmoving:151341_r016_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ede2b9784970b542e1e1cad8.npy",
+      "sha256": "c41297b17879f6ababfaa79429b5cca2095d1d9b3108d4bb98f889f0721b5902"
+    },
+    {
+      "sample_id": "earthmoving:151341_r017_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/02b916a1ced9c89dddc92a05.npy",
+      "sha256": "c08d9aec2bef416d87914d1878f6b518931de01bf29078e6c3b0aa4f08727af7"
+    },
+    {
+      "sample_id": "earthmoving:151341_r018_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a0c3632207669f12186e470f.npy",
+      "sha256": "0da3925c098a8a49e4168f565225fe429af53fed9d5295be5ed9aba9cda2a58e"
+    },
+    {
+      "sample_id": "earthmoving:151341_r019_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/274398a7ae2a3274fb7f97d7.npy",
+      "sha256": "04830735b842aa8f3caf44d45ac5d14d35d386381d1a833c4204f688240a8706"
+    },
+    {
+      "sample_id": "earthmoving:151341_r020_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/e141ad170594cafe81c0c855.npy",
+      "sha256": "27e165ed563d4b825ef8bcd084e4c9b2d15ddd7651f1d22910c6191c0b69f707"
+    },
+    {
+      "sample_id": "earthmoving:151341_r021_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/01a8fc5d89349e7b0c8aa9e9.npy",
+      "sha256": "8971bf5f6e18d6ea309c92bb00d08cd7a6d994d534ec1d5ed786be6ff84a2670"
+    },
+    {
+      "sample_id": "earthmoving:151341_r022_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8f520ac6d52f769c97b2ac4a.npy",
+      "sha256": "a32320c9dcd6cc8dcacbea0ae263e6c3cfa152c92afb783dae43f10ebd3fff11"
+    },
+    {
+      "sample_id": "earthmoving:151341_r023_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/2f5c45ad8e3bf366bab6d940.npy",
+      "sha256": "7f44aa8949932160bed5d76739f054c542f0db863de13b99467a3adf169a0b1a"
+    },
+    {
+      "sample_id": "earthmoving:151341_r024_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/722d523fe3bee43087259fad.npy",
+      "sha256": "6c43fde0118f91c933ec2424305503f0575a04bb5cbf7ade0a3a5e06bdf281a7"
+    },
+    {
+      "sample_id": "earthmoving:151341_r025_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/eeb6f6e65e2f12862a95d4ff.npy",
+      "sha256": "a3fcfeea9c1575f91086d6de272b60b6b54d320ad46b1e376de4e919f7c12f9c"
+    },
+    {
+      "sample_id": "earthmoving:151341_r026_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/42d2fec8263b746473e87299.npy",
+      "sha256": "49bb863cc09cb6f26de250be581ea7056ff3e32cb56f0c3dcd05465e01799bff"
+    },
+    {
+      "sample_id": "earthmoving:151341_r027_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/00b8ef02dd561065e2818c28.npy",
+      "sha256": "e0dadd94fa2476b0bb041475bf7f4f5a8427fd54a8a95559b521b9522fd06a62"
+    },
+    {
+      "sample_id": "earthmoving:151341_r028_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d34ee067ecbbabb2bb89b488.npy",
+      "sha256": "963274907d19405dc86f473b95444c75f06460272f449e88e2697724a25aeaf2"
+    },
+    {
+      "sample_id": "earthmoving:151341_r029_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5bd930a3343ee32ca37a548b.npy",
+      "sha256": "fca1fe563411a33f17d7f987e2dfe9b29b6e80d5f1993a11d8e5043e41ee4479"
+    },
+    {
+      "sample_id": "earthmoving:151341_r030_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a4b339db3308b12daf700b04.npy",
+      "sha256": "d3d3756ce0344445f70ddfcc41770449fde1bec97f6f659e1c514c09d8b05efd"
+    },
+    {
+      "sample_id": "earthmoving:152129_r001_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1405fe36241febbc5fe809e5.npy",
+      "sha256": "308d3333cbf0347a0321925d478296b5639e52afb450df05e803dfdea5bf4b59"
+    },
+    {
+      "sample_id": "earthmoving:152129_r002_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6738c8de014628e652915efb.npy",
+      "sha256": "cf6ce99cda6a3e7fcaf56c8e9a359f1531e83b368149a3bd8a5a33a7a10136c5"
+    },
+    {
+      "sample_id": "earthmoving:152129_r003_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6a05f1b07273baca6dd58a8c.npy",
+      "sha256": "18d8571017126db34c954660af3c8d0b3fd769290f83c079682fecd4d2a9d023"
+    },
+    {
+      "sample_id": "earthmoving:152129_r004_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/cbaee7b063a27159cc161db3.npy",
+      "sha256": "10db526a47f64f8d72297cc704683d4a8be6a14e15c9b4a2ffce7771a3bb1775"
+    },
+    {
+      "sample_id": "earthmoving:152129_r005_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/bca5e5c52261e841f68a822b.npy",
+      "sha256": "9eb2843acc5efd0f60f0964beb6458a5d199c4acfea62f72492387af7f8dbe81"
+    },
+    {
+      "sample_id": "earthmoving:152129_r006_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/56d5f351a0ded997ff80c149.npy",
+      "sha256": "c52fc08e2d166abcad412e8c006d1c8ca92838939a85fc42197324b2d884db50"
+    },
+    {
+      "sample_id": "earthmoving:152129_r007_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1b55ba026714f43663c044fa.npy",
+      "sha256": "98e8a2f2bdde8e48f957188ed3de1d2b100d6c129363398c6f0e3492e38cad5b"
+    },
+    {
+      "sample_id": "earthmoving:152129_r008_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/be1eb231df8016eec4315e14.npy",
+      "sha256": "cd0459cb0bc127983ccee39bd45af83f58001fc6add19245ab8498994cc97444"
+    },
+    {
+      "sample_id": "earthmoving:152129_r009_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6202d0266c01bdef3bc8757a.npy",
+      "sha256": "4e18b9dfdf863c2555837e019780dbae6438b8a0a875459aa03a9bbee218fbfe"
+    },
+    {
+      "sample_id": "earthmoving:152129_r010_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/2f7cd76da29c5a7c69f8a5af.npy",
+      "sha256": "9fb349d5aecc3ef31cc5b167f6403d789329dd993ca4a00471d0208967b18390"
+    },
+    {
+      "sample_id": "earthmoving:152129_r011_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/573954545208ae8bec69644a.npy",
+      "sha256": "90d2af76ba23185d33472d1b369c747acaa3a225a6ac3823cbd24d496ba03104"
+    },
+    {
+      "sample_id": "earthmoving:152129_r012_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9bfe7107812e9d45a4516533.npy",
+      "sha256": "36dbef6c912a085bc9d7386302fe944a4c7158650ea84450fca29cdecc5d0175"
+    },
+    {
+      "sample_id": "earthmoving:152129_r013_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a35cabd5e0308d1cfc4497a9.npy",
+      "sha256": "f5b36e7120cdd17d1b9f4b9cb57ee590d49cbd74dc75d61a386daad55b454814"
+    },
+    {
+      "sample_id": "earthmoving:152129_r014_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/38de2ee02737fd95de8f898f.npy",
+      "sha256": "87c2e661501781198425d0b6846a8e178211255f48c0a673784d8a3684be9c92"
+    },
+    {
+      "sample_id": "earthmoving:152129_r015_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f57128511bee427c2d76232f.npy",
+      "sha256": "9a83b54c06bdc023bbac212d76aea18a80b0a977746a2cf6972ed3513346cc97"
+    },
+    {
+      "sample_id": "earthmoving:152129_r016_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b86df8b5f47a08dc8eac075c.npy",
+      "sha256": "84b42e7aa1009ac4cd0bb08b26fd4b5dde6ecbe0380230c0f2e605a1f152c9c7"
+    },
+    {
+      "sample_id": "earthmoving:152129_r017_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/824ac8cc47daa7eec0bf126b.npy",
+      "sha256": "4a88686d88caaaf94eb0ea2adaf25ca575eead529710e29b8d7a6a7638957628"
+    },
+    {
+      "sample_id": "earthmoving:152129_r018_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3acfee9806e7a13f2d4e118a.npy",
+      "sha256": "176c0c9713976bf8976b8ccf7f0ee3506fbdc9e0d8a0185d31e291c6ec01375c"
+    },
+    {
+      "sample_id": "earthmoving:152129_r019_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/aaa7060065401c862e5e4704.npy",
+      "sha256": "90f617a6b74c907ac484ca8c1d194e25566a241963f3eb779fbdf1c9cb00088b"
+    },
+    {
+      "sample_id": "earthmoving:152129_r020_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/953977fa48d79c1769118179.npy",
+      "sha256": "59f5a729935d22707be6afbfb186b155426a8fda1f94bcc3d3ce644926001663"
+    },
+    {
+      "sample_id": "earthmoving:152129_r021_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ec8b401eb45843ed8c858ac4.npy",
+      "sha256": "997dd82ed608417a1977b11591de5fcb3e16543766548358ad6a83d4ccfd3877"
+    },
+    {
+      "sample_id": "earthmoving:152129_r022_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ef3d1eea11d7c308e01122bc.npy",
+      "sha256": "954fe6957edc1e2b8023270fcc1244d1f5a1af746f6b9b3a4649ce729f333a53"
+    },
+    {
+      "sample_id": "earthmoving:152129_r023_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/94ba1d952214c180d7ff7f67.npy",
+      "sha256": "b926f824d66b35ec16570f4efd22ae7608603e9d5b60116b5cb39f8304b9b04d"
+    },
+    {
+      "sample_id": "earthmoving:152129_r024_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d239fec6f210008518453b3e.npy",
+      "sha256": "a504fccf4460af3354679af161111348168deb7990925d1b622bf45828465d1a"
+    },
+    {
+      "sample_id": "earthmoving:152129_r025_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c4db9ae42bfe68d85dcecd2d.npy",
+      "sha256": "fa7821f13c71dbd8bccef981196ef10ae909262f066f519bb71a12a84c366875"
+    },
+    {
+      "sample_id": "earthmoving:152129_r026_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/04c3a64592545ff172e717c6.npy",
+      "sha256": "43f915cb8596c349092440a954501f879cc8d861c623677534a74c7aa5e0501e"
+    },
+    {
+      "sample_id": "earthmoving:152129_r027_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5e6aa836117ad41eb04394c2.npy",
+      "sha256": "c79adb10853e9f6c91239333b2551987d06bf9dcb05b1de9cd64ee307019b71a"
+    },
+    {
+      "sample_id": "earthmoving:152129_r028_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1f9eb43298a05caa2b116bd2.npy",
+      "sha256": "366d3af9fc707dd058635526bef220e071454b11356ef7fa076dae7cf5f64de1"
+    },
+    {
+      "sample_id": "earthmoving:152129_r029_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9311db34c5b111690e543f25.npy",
+      "sha256": "b52269e5e5b31862ea447f8317a095dac43f1bb4a95a50f0e18daa5573470a30"
+    },
+    {
+      "sample_id": "earthmoving:152129_r030_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d655310fcf963204fe1320a8.npy",
+      "sha256": "ac1d0a769cdd713f186b251cc10022b5590948b2fc168f6cee2669958412da4f"
+    },
+    {
+      "sample_id": "earthmoving:152129_r031_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c8c9b41e0ae845d53dcf0c4d.npy",
+      "sha256": "c57d16be0d1126d6fc9f2d9d76689f69fc4ff3885b34e91e6faa72968e0f2713"
+    },
+    {
+      "sample_id": "earthmoving:152129_r032_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/e6f364eedb9f10231576ba9c.npy",
+      "sha256": "b7ba3b3caf45f136c80b69d32f07757bcb268bcc4d23b132120a1e00390cb4b6"
+    },
+    {
+      "sample_id": "earthmoving:153004_r001_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/11f45a529de1da38a91608ff.npy",
+      "sha256": "a304f5728dfc2d8ae04d82cfe5bcd20c095129da5d9e9dfbe13e963b5c363907"
+    },
+    {
+      "sample_id": "earthmoving:153004_r002_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6b12ea4a05e78d34829377a3.npy",
+      "sha256": "50f64820345ea7b02cc575cb8ffd602cae3af31cb1e9f2415f36394798e04458"
+    },
+    {
+      "sample_id": "earthmoving:153004_r003_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ce8356d5ddd610dd47686baf.npy",
+      "sha256": "94edf46b4c808be2040619f39e8efba850aa91b55c392ba5cf3aae8046337ef9"
+    },
+    {
+      "sample_id": "earthmoving:153004_r004_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b8fc3a2d56e47d599358edbb.npy",
+      "sha256": "3fa06b7178e40fb1e2bdc654634073a0aedbf06826868d10c5bd22bcda33f94b"
+    },
+    {
+      "sample_id": "earthmoving:153004_r005_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8069c4fda4e95e3b9be780f4.npy",
+      "sha256": "1a2ee2bf8f2f194f233d158f5ca22ddc19bc285361ac2d99eebfbc8086102668"
+    },
+    {
+      "sample_id": "earthmoving:153004_r006_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/7145db27fab41d767f4ca84a.npy",
+      "sha256": "aba7a68adf00403525cc50931f4f19812271507f5c6af4bfa1b109802be83d93"
+    },
+    {
+      "sample_id": "earthmoving:153004_r007_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f21f68f192e0135306e3339b.npy",
+      "sha256": "b9747e979ff036c81cc7d33f7e0d6cade521f8913f9814a106456a0b3b7966a1"
+    },
+    {
+      "sample_id": "earthmoving:153004_r008_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b79f97159cff12ff607d2019.npy",
+      "sha256": "b0355c0e05871733218204ab09d4af2233232e87574ec58e850367f2ac9c98ea"
+    },
+    {
+      "sample_id": "earthmoving:153004_r009_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0ce97403a3784c052df6b364.npy",
+      "sha256": "03a7fb7509c6ae627cb7cee346ae846c70fb5df3cf8ef67870b54307590dac68"
+    },
+    {
+      "sample_id": "earthmoving:153004_r010_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ea89b87e4ea8f91bbd162d95.npy",
+      "sha256": "6a7ff3a64dcde289eb840ab36bc9a2548073228fddfdd085f4f8c2143abf3d39"
+    },
+    {
+      "sample_id": "earthmoving:153004_r011_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5bad39f909cb91493299f298.npy",
+      "sha256": "6eebea51527df5fb88cb2d3039493d0f947753c067ba1f6a62952795422dc614"
+    },
+    {
+      "sample_id": "earthmoving:153004_r012_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9a24526573fe506e02543c6d.npy",
+      "sha256": "486168ba1bdf013421d28ea54f64b5fada61c1e6b2cdf65d7a3f8c36f945d070"
+    },
+    {
+      "sample_id": "earthmoving:153004_r013_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/172545c8eff63c860097e67c.npy",
+      "sha256": "fecb55666dc76ae3c7714a32ae006152107fb767a813d4a01d4726aa071dd15d"
+    },
+    {
+      "sample_id": "earthmoving:153004_r014_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/be2cfa275694d891981f7a1e.npy",
+      "sha256": "31fcafd0fa1ece45af43b741ec75ac01db4823e114cb1258715a132a485ce9b7"
+    },
+    {
+      "sample_id": "earthmoving:153004_r015_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/08f023d8d3662200b92072a6.npy",
+      "sha256": "4a8dc1f76fa371e1bbea13187a315f356beb8a4f3b3506e0d24cb73df0cdefe0"
+    },
+    {
+      "sample_id": "earthmoving:153004_r016_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4c6b1c59f33bf95bf8f23a16.npy",
+      "sha256": "bf3e7a791c0a874480f1e3157da206abb61a72668bafd8424bbf21bf39557ca7"
+    },
+    {
+      "sample_id": "earthmoving:153004_r017_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4bb62eebdf99763ceb207c9a.npy",
+      "sha256": "73e566acfdcbc3a7f44e41821ab8189a5965073dff1cdae93d5a55a140143e14"
+    },
+    {
+      "sample_id": "earthmoving:153004_r018_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/014dc0ea2dd138d0b700fe1c.npy",
+      "sha256": "1dd5026e5b579c4f7ea1921c271d3817bc75a0edf51f94328e125c670aaa1fad"
+    },
+    {
+      "sample_id": "earthmoving:153004_r019_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9846fed9edb502966b7653b9.npy",
+      "sha256": "f92ba3fbc6a7ec57d6b335b4343b3728fa5202b6ec8608070d39b9df33106001"
+    },
+    {
+      "sample_id": "earthmoving:153004_r020_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/fb560a84ff96a355f4cff64c.npy",
+      "sha256": "6a305072adb4f06d1a4822f8290a62c33b573190526f439a98a5ffa9f3ac1fe2"
+    },
+    {
+      "sample_id": "earthmoving:153004_r021_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c642cedf79a63e6508c91bd7.npy",
+      "sha256": "456baa7221f1ed11971fddda884ec6e2322423001e4a95beaf9fc7709faf132c"
+    },
+    {
+      "sample_id": "earthmoving:153004_r022_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d285f613bbafba02ccd1dc2d.npy",
+      "sha256": "63396ab6c8ea6cfe7bde0216380ecf182e66aa58469172a6984a428cfeea222d"
+    },
+    {
+      "sample_id": "earthmoving:153004_r023_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4ef85d84e516e049f1df25a9.npy",
+      "sha256": "700058cefad60fd71ca74eb82599366b8367fc76c337fdcdb07064ca1d9c574c"
+    },
+    {
+      "sample_id": "earthmoving:153004_r024_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8271bb6d5bcd940970c3f985.npy",
+      "sha256": "aa0563eef5acf92a73b422aa4cdd7738dcb822670dbfb2da527da01baa141a8a"
+    },
+    {
+      "sample_id": "earthmoving:153004_r025_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/35b2484ca05c646af97e8bb6.npy",
+      "sha256": "a5c5a40b6ffebf837108b8c9465af21ea568e9f7ccd24e664b554d631fef84c6"
+    },
+    {
+      "sample_id": "earthmoving:153004_r026_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/56df6a71d02e3352b1a73220.npy",
+      "sha256": "fdd0faef4499f176d62777f4aa5caed1ded227f272ca25922b120c757e651003"
+    },
+    {
+      "sample_id": "earthmoving:153004_r027_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3731abee69b9ebe49a5783f2.npy",
+      "sha256": "e6d942ba51922410238075b5c8ebe05557d3241a171197990d9f4c693efd8821"
+    },
+    {
+      "sample_id": "earthmoving:153004_r028_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/2b2f09f7fe062ee27cc76dc0.npy",
+      "sha256": "085422d88b5400f5d3f07fc8e9e89743f94463bc472d74d0f0d1a8c03fd7b321"
+    },
+    {
+      "sample_id": "earthmoving:153004_r029_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8a6ae14977cd304c4cf48371.npy",
+      "sha256": "cbac8494d79826d8bbd6701d163abea2374236039884f685ccffcd01b30c9469"
+    },
+    {
+      "sample_id": "earthmoving:153004_r030_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ecdef4d7ce76b3856c518136.npy",
+      "sha256": "77bd6ff041bc2267b72e65da9e90d62ef2e519905d8de26880d0940f6d7f1c28"
+    },
+    {
+      "sample_id": "earthmoving:153004_r031_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1809d5e9e966fef17c4fdd7c.npy",
+      "sha256": "d12c7ca3014c38a9ec9cf9bf661f734ba6f835b47a063dd10bdd6390b1642a41"
+    },
+    {
+      "sample_id": "earthmoving:153004_r032_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4e265fcbbfe90d35ea6e2e7c.npy",
+      "sha256": "23d153274c64ee7f7c0ec9294585ffcb7c7c8f2eb95334cd17952a574937ebd9"
+    },
+    {
+      "sample_id": "earthmoving:142932_r001_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9f55813da6bf36ca53ca2ede.npy",
+      "sha256": "9915bbfae6448c8e6ecb0e4d1e79baab56ce47fe87351b893fb872bdfe233b80"
+    },
+    {
+      "sample_id": "earthmoving:142932_r002_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0d5a769ad8a552aa007e238d.npy",
+      "sha256": "396532ed6393b5125fe46210789b86015dde80f8537c93b83aa8a3f60b58e169"
+    },
+    {
+      "sample_id": "earthmoving:142932_r003_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/33173daa4fc67edf5bc64aa0.npy",
+      "sha256": "a5a1c8f2ba6816ab6896a8f642286d241cd29cf5a79aa0ed8714d70ea8f645db"
+    },
+    {
+      "sample_id": "earthmoving:142932_r004_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/cb6d3752e47e117fd9339f9c.npy",
+      "sha256": "c26ca7b95539aad1501edfb982c3deaf32295447326ba902e1bb624f5757e2cb"
+    },
+    {
+      "sample_id": "earthmoving:142932_r005_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b6088009ca44513813e47a03.npy",
+      "sha256": "cedf20a3eaee7020b1b792aa9d0c28980ee2d21cd2469527c1ad9c8f20f19127"
+    },
+    {
+      "sample_id": "earthmoving:142932_r006_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/43f1de08af38625208aafe39.npy",
+      "sha256": "6425c4c3797063c5dabcb0e96e2c2db311ec8bd51b85cbc6d711d9b4a80e81f6"
+    },
+    {
+      "sample_id": "earthmoving:142932_r007_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c20dc560137c880a090f76e1.npy",
+      "sha256": "15ddd68b285cccec1309fb3520d45255fbf342211ae781cd5bbf09f8159b6a04"
+    },
+    {
+      "sample_id": "earthmoving:142932_r008_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/731794cd4add7bb4893aa093.npy",
+      "sha256": "4c334b44bf73faed1242169f92adcd46684c8ea2f7f672d82d5024ea0865b9f5"
+    },
+    {
+      "sample_id": "earthmoving:142932_r009_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/524ea8f712c723751be944fe.npy",
+      "sha256": "78cff601bfbff5fe85e21e19d04730577b85ae62689dcf238534744bbe82a67c"
+    },
+    {
+      "sample_id": "earthmoving:142932_r010_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8ef8dc902d3e1d31e38d08ed.npy",
+      "sha256": "ad438f6a070967925aab8bda050f6f887d8ea2c2f9d52ea257227763893d4c08"
+    },
+    {
+      "sample_id": "earthmoving:142932_r011_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/925372f90cfb7932ef8dafb8.npy",
+      "sha256": "e98afabd50d065d1af46367d633fdf8ece4ca5f1749d95e2d79bbe84ad4d891c"
+    },
+    {
+      "sample_id": "earthmoving:142932_r012_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/cefbb85568db0c6bfaa690fe.npy",
+      "sha256": "012197549bd72e5c3a69ddb6252e0492227e5ee3a83b599e0078db484f457a6e"
+    },
+    {
+      "sample_id": "earthmoving:142932_r013_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/39c4131e087bff6b81c6afd2.npy",
+      "sha256": "17f937b82e6daf23be610895f51345bbb33f9dddd33494dbf9cfdbaa4e277738"
+    },
+    {
+      "sample_id": "earthmoving:142932_r014_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/45fd941dea5e11682865a06a.npy",
+      "sha256": "7b4279e6c7744cbc4ee1d13d74ab51e8f125e6e510381d08046d4994a43713cd"
+    },
+    {
+      "sample_id": "earthmoving:142932_r015_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/7da3ac491af0ab129c71fee6.npy",
+      "sha256": "e75ee8ca90d2790e66604cfdff499313e073ff168ace3604fecb9d0af28a7972"
+    },
+    {
+      "sample_id": "earthmoving:142932_r016_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8020becc1099baf9a70e9067.npy",
+      "sha256": "106d245d4c16a48607691d6bd3640db44a43d565cc43477072c86e5dc9aba71b"
+    },
+    {
+      "sample_id": "earthmoving:142932_r017_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a0a161ea14c5ece70eeb9fbe.npy",
+      "sha256": "d033d454adc51d771275a121ca464ddea902a45e434aaf708a8ab64f991b97a6"
+    },
+    {
+      "sample_id": "earthmoving:142932_r018_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5e01e335713b79c3c2361b50.npy",
+      "sha256": "e4c350ece9796cd90d99ad91d773c7a8107f22a9865b165ed17594cd95b24da6"
+    },
+    {
+      "sample_id": "earthmoving:142932_r019_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/7dd4d591a6fb4871cf2bb6ae.npy",
+      "sha256": "9f7a2c8a556c268e06faa6550d30b924978385dca5d3bbfb3622615e38c3eb53"
+    },
+    {
+      "sample_id": "earthmoving:142932_r020_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/43ce8583a710153fbf2822f0.npy",
+      "sha256": "3a5eb7c1a1dc11640ec3f6baff9c985c5d4e876b5c42779f57a7d0a7865cff49"
+    },
+    {
+      "sample_id": "earthmoving:142932_r021_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/b0238428749dc4c49078b101.npy",
+      "sha256": "c96d4792cb8a2c307240ef8693f602f94aeffb1af9615ebdce9b95d63c07565b"
+    },
+    {
+      "sample_id": "earthmoving:142932_r022_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ffe01a26f9781973151d64d6.npy",
+      "sha256": "9546b9ef159276b11412a253a2368fe9f9ff9b7f23c778efd7d7425c31376321"
+    },
+    {
+      "sample_id": "earthmoving:142932_r023_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ddd6d104e671dda61882aff8.npy",
+      "sha256": "f73f29efef01c7f6abc217603aef1e51080a9ec7c101a796abd2d9f804d88c8e"
+    },
+    {
+      "sample_id": "earthmoving:142932_r024_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a8cf71fdc6dd67befb0d1895.npy",
+      "sha256": "d870c51b7672c1d045cabfc9771d898018850bbf7057926b3415c2783085494e"
+    },
+    {
+      "sample_id": "earthmoving:142932_r025_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f4fc485a7b9c895605fab8e3.npy",
+      "sha256": "cae3f6078b5bbd7ccf6e8443fb13b8a69d0b87bf475cb39ff28a943bef6ff8a7"
+    },
+    {
+      "sample_id": "earthmoving:142932_r026_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/794056a46cb2bd14f3ba017f.npy",
+      "sha256": "ee83673b7eccb655066711d5cba28f7a78d286c15b2d9f76835f13df2cdec3cd"
+    },
+    {
+      "sample_id": "earthmoving:142932_r027_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3a6b9e24abc2a41558f05aec.npy",
+      "sha256": "38979a3e2c5cd12dacb6e62bd0612e2725d54a90209dc4c566555e41cb408e6e"
+    },
+    {
+      "sample_id": "earthmoving:142932_r028_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/698a412fa5cc77f3545aa405.npy",
+      "sha256": "c37f6ca51d5c22442016997a74eef1f5d2a9b45cd1d09bd5c0ee74d954237ac3"
+    },
+    {
+      "sample_id": "earthmoving:142932_r029_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9aa48a869ac1b5fe776ef79e.npy",
+      "sha256": "7fbcffc3d2702611a319c9c2b6e9840bcdbddbf39cfd9ed5c09d8571b54ceaf7"
+    },
+    {
+      "sample_id": "earthmoving:142932_r030_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f7acdc035bfe41f7ee3307cc.npy",
+      "sha256": "5dcc1eeafe28a38e58d8e54391daaf16f6744b0e1b95555ed765d9d1a6c3f815"
+    },
+    {
+      "sample_id": "earthmoving:142932_r031_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/64a0a4850b0e3da3cc165484.npy",
+      "sha256": "3b88b46562fb8e510da630a0462e008e1ccecfd0e4c675afb7a095b5f0b02c26"
+    },
+    {
+      "sample_id": "earthmoving:142932_r032_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/0373871ebafe55a9c7421013.npy",
+      "sha256": "a38dbe6c1d611764dc24ad551fae1d5d9110b0f09529b978a9be4fca58ef523a"
+    },
+    {
+      "sample_id": "earthmoving:142932_r033_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5d02272ec11a7b16b0ecf25b.npy",
+      "sha256": "d9406c61c91912705fcfc90967e8e0d206b368fbbad7e11e7a5682031b75f524"
+    },
+    {
+      "sample_id": "earthmoving:142932_r034_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ec045fb34db7526fb480a033.npy",
+      "sha256": "f62711ab0e6c8ac11d9fc64283e2da7d1c5f470732c74e90e0c3eddf9bbd42ec"
+    },
+    {
+      "sample_id": "earthmoving:142932_r035_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9697df63ad8f19052c461b1f.npy",
+      "sha256": "12e9a4b2b6fa90b41183f51b1ad154294e412536978e749c4a1bbaa079c5623d"
+    },
+    {
+      "sample_id": "earthmoving:142932_r036_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/fda423456d57163f6caabce8.npy",
+      "sha256": "f8eebcb4e244c45a7e2b6a3aea47599252caddc1fb8eae3a2d76ee7396521359"
+    },
+    {
+      "sample_id": "earthmoving:142932_r037_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ea4e4d8167d092ec7df4af0a.npy",
+      "sha256": "a77e1b06743285bc306f313e21013363075da77475af5e41af02372bf2c0929f"
+    },
+    {
+      "sample_id": "earthmoving:142932_r038_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/ddff616a630bf788e8b5d972.npy",
+      "sha256": "360bce47dda506d80622bbd8bf54865294a6a8e20084b90148de05cd317b5a8e"
+    },
+    {
+      "sample_id": "earthmoving:142932_r039_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/51b3f7482207653ee2fe4b00.npy",
+      "sha256": "5f8f36920dff90d992c3b309efe9514d8423d31825b228143cdb2199f5877bd0"
+    },
+    {
+      "sample_id": "earthmoving:142932_r040_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/647df5fd5479f143d7d462f4.npy",
+      "sha256": "8c3e5361514c8ba17fc14790f9cfefed577c9653862b55e4074dbdd26c50de0f"
+    },
+    {
+      "sample_id": "earthmoving:142932_r041_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5cf6210faadea2c03cced9e9.npy",
+      "sha256": "6dbcc17de6f4e004cc9359a8a658e90352b7d6ed48b7290499983f557f293b60"
+    },
+    {
+      "sample_id": "earthmoving:142932_r042_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/8fcd7ab951a1fd89cb9ab4af.npy",
+      "sha256": "dec65d63ba81624ce37294628410bfebe0014db27d49772d6289fdf56e742a68"
+    },
+    {
+      "sample_id": "earthmoving:142932_r043_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f3735014c989291e7f679ec6.npy",
+      "sha256": "db6379cd798209aa8ae60f13cbe4026aed4ee9c3977cc0b8998892fccc1b423a"
+    },
+    {
+      "sample_id": "earthmoving:142932_r044_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/c9112646446853a38625b45f.npy",
+      "sha256": "221606a88b83cbdc0d6f000df11e33309749f3028f07383375208c7192199dc1"
+    },
+    {
+      "sample_id": "earthmoving:142932_r045_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/d501fd77118f7c95f0acc497.npy",
+      "sha256": "65518b1910fb0f43f3b4a39df911fcd2cfd07f5a5b9f4575d31c2c7ca916d3f3"
+    },
+    {
+      "sample_id": "earthmoving:142932_r046_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/cb8145f2a65213b93cc16078.npy",
+      "sha256": "22a750c7296f15198337c53bcdd72993216bfd137b408acc545e0e58ec449e90"
+    },
+    {
+      "sample_id": "earthmoving:142932_r047_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/910d5c43ce471d9ecb2d98a7.npy",
+      "sha256": "fe5999611885bcdd4aa8e30241f41e4c7a66441792c3fc98c214fd953344abfb"
+    },
+    {
+      "sample_id": "earthmoving:142932_r048_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/708a2854ba107411326f7c93.npy",
+      "sha256": "f1f816ac114994a04cb67f314d628a7e60d0241fed7847c90570fcfb51aa4e19"
+    },
+    {
+      "sample_id": "earthmoving:142932_r049_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6ad8c858b8ddab56cd3bf5e4.npy",
+      "sha256": "27e07711c4287182b8b459e22cd9d2d8d3490c9c9950b20042dff0fb993f2a59"
+    },
+    {
+      "sample_id": "earthmoving:142932_r050_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/33d52cd7edc6707632ac7961.npy",
+      "sha256": "661df7665ff3c8d09d53f58d989618be64b313745281f41dcac77361f3e44450"
+    },
+    {
+      "sample_id": "earthmoving:142932_r051_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a8e17b2d7f0f1b450216364b.npy",
+      "sha256": "63d48c1161ceff6b1090a3a2c14120333df17147dfec0f7302274d3d6d9d9f6e"
+    },
+    {
+      "sample_id": "earthmoving:142932_r052_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1cf09e3a0e7333c9f8aab0f7.npy",
+      "sha256": "a7e11edcfd5d3219394f39b2f5694403fad4afebfc4f662f2425aa8af48d13b5"
+    },
+    {
+      "sample_id": "earthmoving:142932_r053_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f780565b3479323785c9e50f.npy",
+      "sha256": "d90e5f79dfe70cb4900175b158199a61f2b37bef035f74be74d0a40e42b24f54"
+    },
+    {
+      "sample_id": "earthmoving:150625_r001_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f7337b47b595e3abb3979d96.npy",
+      "sha256": "57c4352963e9421f3f790ec0b714af534663a7d79617c2542fbce24501c7ffe0"
+    },
+    {
+      "sample_id": "earthmoving:150625_r002_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/36a043ccb970f3d7d335a534.npy",
+      "sha256": "db6e885082cc8be96752af44ca2cb6a04541854649a36d27d0e4c2582ea71cb4"
+    },
+    {
+      "sample_id": "earthmoving:150625_r003_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/28c242c4e3586fa7fa3d89da.npy",
+      "sha256": "b77d1b63b9f0d2484bfa0602ec0123f21ea447e499cb4908a53b204999be1b4f"
+    },
+    {
+      "sample_id": "earthmoving:150625_r004_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5efe10163112a93ebd006759.npy",
+      "sha256": "0a696ba9acfbc28255a0e3e5cd5d3809b504dafda0266a99c271048cf3ece499"
+    },
+    {
+      "sample_id": "earthmoving:150625_r005_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1ed5c2e1b0d89c622900ad19.npy",
+      "sha256": "f767d05170b460967011f885464bb5e4c0493164e157c4dd49b5e1a5bdc5a88f"
+    },
+    {
+      "sample_id": "earthmoving:150625_r006_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/aeb48075ebf937c3bb4e4bc7.npy",
+      "sha256": "510790e769f2b90bf8c62680f0e683e0df438779cda9f4629cb3ffd760b1c1a9"
+    },
+    {
+      "sample_id": "earthmoving:150625_r007_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9826256fa5a4daf77511b67a.npy",
+      "sha256": "02081e00f8c22ff03474ad08bfb7999ffb4dba22371c80873e9c7944b8a58581"
+    },
+    {
+      "sample_id": "earthmoving:150625_r008_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f16ad233515db7099e0b98ef.npy",
+      "sha256": "d038b864b931800681931ec261d7c6498ad3191bb15c8342a3f5f22c29a2f3f3"
+    },
+    {
+      "sample_id": "earthmoving:150625_r009_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/28c7b6c58a7b79f41f283d5e.npy",
+      "sha256": "26ba7a70baaa2a4573c77b056736b26ee09b8a11f618726b1a86003fbe7d0577"
+    },
+    {
+      "sample_id": "earthmoving:150625_r010_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3e511d59fc98f28c1ae0ffd4.npy",
+      "sha256": "d521c9a1e6967190703f3c1381290c8cd6c400ec4de7f8f0800ac7ee8c36f4a9"
+    },
+    {
+      "sample_id": "earthmoving:150625_r011_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4f6bb157ce09b6d93073d271.npy",
+      "sha256": "9e34708cac65d53e40529ebf83131aef75b731761e942239e95d31f31d65d64c"
+    },
+    {
+      "sample_id": "earthmoving:150625_r012_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/67090e4bc8b1b2be2b8485f8.npy",
+      "sha256": "b2486619d0dfa94e6c6ba1fdc684327bcbc64b3edd935718b861f1e46796f84e"
+    },
+    {
+      "sample_id": "earthmoving:150625_r013_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f45b71f2f4b16158a21fed35.npy",
+      "sha256": "76da6286dcb74f31eaf6ebf1f13e5b381cd471503a08c3b50d2b8cc9de953c9c"
+    },
+    {
+      "sample_id": "earthmoving:150625_r014_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/73b3e1bb537d9da83bc805a6.npy",
+      "sha256": "285051047ba7ed5836cc08ddc1b1f977df21430f813a61d5641adcc7dbcc0124"
+    },
+    {
+      "sample_id": "earthmoving:150625_r015_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/269fc3115e91b31ece769d28.npy",
+      "sha256": "25bac9b811bc0f4a78ef8dbf59f072b491128c0f9d984bda1cdc38eaa99136b9"
+    },
+    {
+      "sample_id": "earthmoving:150625_r016_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/6165a19936d19064add3c4db.npy",
+      "sha256": "4995a0ed7dbf3dab72c311eeb395a07c17792aac1f94d1800b518ee5da021d21"
+    },
+    {
+      "sample_id": "earthmoving:150625_r017_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/e72acae0df8c9e73aa6be7fc.npy",
+      "sha256": "15e1b3482fb2114448aae179b3d369168a15826ee4bccb8e69f4b7b0ad7e5e75"
+    },
+    {
+      "sample_id": "earthmoving:150625_r018_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/47f58fe57271dc883463b79d.npy",
+      "sha256": "833a758c56e53a2bc4b4854caf9fda3c2ea711e1443e89dc01340ab3fe2dcadf"
+    },
+    {
+      "sample_id": "earthmoving:150625_r019_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3c910a9b17185e5b86a50234.npy",
+      "sha256": "c6fa3ef07ea1d1a080829bc1105b589476ffae6bdfb935285de423a0cec213b3"
+    },
+    {
+      "sample_id": "earthmoving:150625_r020_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3a7aaf96bb300b8e3198d15f.npy",
+      "sha256": "71a6be66683fcb035af1aa0b24eee2d191d73c41e26d13f12fe939bc0a505622"
+    },
+    {
+      "sample_id": "earthmoving:150625_r021_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/a7112095a232dd47798c58f6.npy",
+      "sha256": "7409b834c730680a99cbb12bc27ee1efcc9a6c91722845088b8f539b40eeb673"
+    },
+    {
+      "sample_id": "earthmoving:150625_r022_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/70ff1c79384611fca5da7739.npy",
+      "sha256": "70f8f6a3a357b824d741f75312e26efc2356cd8cc17deaf0a65408e41acec44b"
+    },
+    {
+      "sample_id": "earthmoving:150625_r023_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/617bff27bd78527adba14278.npy",
+      "sha256": "ada905731e342801141c81b49e6807cb7077a146d5631106db4d2703cf8e8ce8"
+    },
+    {
+      "sample_id": "earthmoving:150625_r024_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/5e6f1bc085ee7c6b1106a79b.npy",
+      "sha256": "f97183ccc11729e8baf102f4904ae39564136258fdb4cb003c78dec052d699f1"
+    },
+    {
+      "sample_id": "earthmoving:150625_r025_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/71408c36ca6b37509347a9ff.npy",
+      "sha256": "f8e078b95ecb74d4c79a4fa241dc16d7c4d906b9074bb4effec61b33c98049b4"
+    },
+    {
+      "sample_id": "earthmoving:150625_r026_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/94bf5db7dbca947918d5a2a4.npy",
+      "sha256": "57ded04c6e34555c942fe0c2c836d938486e342d09d548dae33da280aa6dfde3"
+    },
+    {
+      "sample_id": "earthmoving:150625_r027_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/f41b0cfcd0e7a09d933eb43b.npy",
+      "sha256": "ac2bbb784904fca91421a7310e68fe114b1dfbef9b41ab71518032a895b646b8"
+    },
+    {
+      "sample_id": "earthmoving:150625_r028_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/3bacc73355f530f5b1024123.npy",
+      "sha256": "79531505e1b24edc57b53df2d63458081b5ce7ec27cad0341f36a0e05106ba10"
+    },
+    {
+      "sample_id": "earthmoving:150625_r029_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/1f87b7bc790ac668dd145841.npy",
+      "sha256": "718395eed2ff6cf3e6eb7919e13f25093aff57182834c3013aafbfae3296742c"
+    },
+    {
+      "sample_id": "earthmoving:150625_r030_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/4429cf0ea89fb013e69d6a83.npy",
+      "sha256": "07a3f1263b7e8c9e0682c575c2146f9ef23876169ee24ae8ee3fa5c61ae260c6"
+    },
+    {
+      "sample_id": "earthmoving:150625_r031_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/e92a965a373aa64609c36f2a.npy",
+      "sha256": "88da8485d0ac05fcbc69177be762bad62ec44103157d509ada2ed96356634ca6"
+    },
+    {
+      "sample_id": "earthmoving:150625_r032_clip",
+      "path": "experiments/03_action_recognition/20260923_joint_v1/earthmoving_cache/9dc711806411db90d65d02e8.npy",
+      "sha256": "564bddfbdf439939fea08af99b487b53d76a2de46ad1252f7b2216e9e94838cc"
+    }
+  ]
+}

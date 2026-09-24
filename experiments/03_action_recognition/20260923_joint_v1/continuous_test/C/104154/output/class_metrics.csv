@@ -1,0 +1,6 @@
+class,precision,recall,f1,support
+idle,0.0,0.0,0.0,1655
+swing_bucket,0.31210662717512033,1.0,0.47573363431151244,5058
+load_bucket,0.0,0.0,0.0,6464
+dump,0.0,0.0,0.0,2888
+move,0.0,0.0,0.0,141

@@ -1,0 +1,15 @@
+{
+  "arm": "B",
+  "seed": 3407,
+  "selected_epoch": 21,
+  "val_metrics": {
+    "accuracy": 0.788235294117647,
+    "precision": 0.46611842105263157,
+    "recall": 0.513222079589217,
+    "macro_f1": 0.4777213622291022
+  },
+  "checkpoint_sha256": "2c1e9dd43c69ab3571c4044f1010130360bad32d9122fc44e2bb55f1b632e7d9",
+  "epochs_completed": 40,
+  "test_evaluated": false,
+  "training_seconds": 50.5051067500026
+}

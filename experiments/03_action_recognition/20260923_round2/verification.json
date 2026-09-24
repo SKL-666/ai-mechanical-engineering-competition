@@ -1,0 +1,20 @@
+{
+  "v1_and_round2_index_hashes_unchanged": true,
+  "v1_clip_evaluation_units_identical": true,
+  "no_cross_split_exact_duplicate_frames_in_round2_inputs": true,
+  "all_continuous_targets_verified": true,
+  "test_started_after_freeze": true,
+  "six_final_runs_and_distinct_checkpoints": true,
+  "test_support": [
+    10,
+    80,
+    44,
+    35,
+    1
+  ],
+  "all_inference_probability_files_label_free_and_on_fixed_grid": true,
+  "postprocess_matches_pretest_freeze": true,
+  "originals_verified": true,
+  "original_file_count": 89108,
+  "raw_inventory_unchanged": true
+}

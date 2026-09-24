@@ -1,0 +1,20 @@
+{
+  "arm": "B",
+  "seed": 2026,
+  "epochs": 40,
+  "steps_per_epoch": 60,
+  "source_draws_per_step": {
+    "earthmoving_temporal_per_step": 8,
+    "kit_temporal_per_step": 8,
+    "rathan_still_per_step": 0
+  },
+  "device": "mps",
+  "protocol_sha256": "b2a8d6adc0720c05046f688878d613ea5490288bacfaa7e911061dc5087ac5aa",
+  "candidate_index_sha256": "b1d222291096df480bf54351fed8a6b2d8d176e876ed19f468702a2836537fbb",
+  "validation_index_sha256": "fc51a7fb60e906202def10ae71a6ff7a78d882e5f9ad5e34dbf74057448a294e",
+  "cache_manifest_sha256": "5d9066e748cf8506d744dae8845bc5ae22ffd846dd217a0d721c9876c9e680ec",
+  "mapping_sha256": "dcc2b9fe8a4c5adb60a706ab41db7a1cf643b728ab4cbaec164a02f5ae6ae5a0",
+  "command": "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint.py train --arm B --seed 2026",
+  "test_evaluated": false,
+  "supplemental_mapping_and_rights": "provisional; local experiment only"
+}

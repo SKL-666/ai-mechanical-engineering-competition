@@ -1,0 +1,2 @@
+video_id,equipment_id,start_frame,end_frame,reason
+104154,1,0,63,warmup_missing_track_or_uncovered_tail

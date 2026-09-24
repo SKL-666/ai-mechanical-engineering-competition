@@ -1,0 +1,63 @@
+{
+  "three_seed_test": {
+    "A": {
+      "accuracy": {
+        "mean": 0.41372549019607846,
+        "std_ddof1": 0.08029645188016968
+      },
+      "precision": {
+        "mean": 0.23890459213988627,
+        "std_ddof1": 0.09018956387940069
+      },
+      "recall": {
+        "mean": 0.2335930735930736,
+        "std_ddof1": 0.021500379814149685
+      },
+      "macro_f1": {
+        "mean": 0.19274722353162857,
+        "std_ddof1": 0.028287024869463575
+      }
+    },
+    "B": {
+      "accuracy": {
+        "mean": 0.5529411764705882,
+        "std_ddof1": 0.09895649318388658
+      },
+      "precision": {
+        "mean": 0.3076235414803708,
+        "std_ddof1": 0.1025804554171747
+      },
+      "recall": {
+        "mean": 0.317012987012987,
+        "std_ddof1": 0.08039503894559408
+      },
+      "macro_f1": {
+        "mean": 0.29890799097520926,
+        "std_ddof1": 0.07627388469639476
+      }
+    },
+    "C": {
+      "accuracy": {
+        "mean": 0.4823529411764706,
+        "std_ddof1": 0.14312382424231104
+      },
+      "precision": {
+        "mean": 0.32567790164888066,
+        "std_ddof1": 0.10646695164676562
+      },
+      "recall": {
+        "mean": 0.30211038961038966,
+        "std_ddof1": 0.09447953763938446
+      },
+      "macro_f1": {
+        "mean": 0.28999962501636906,
+        "std_ddof1": 0.08740825483805752
+      }
+    }
+  },
+  "freeze_sha256": "e8528ca85a5ae6bfc643a232c67574b39541bbd34a2a74cc6a53eea5a957b2d1",
+  "test_clips": 170,
+  "test_source": "unchanged Earthmoving two original videos",
+  "test_previously_viewed_in_prior_experiments": true,
+  "no_test_based_model_or_arm_selection": true
+}

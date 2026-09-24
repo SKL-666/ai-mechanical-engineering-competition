@@ -1,0 +1,121 @@
+{
+  "split": {
+    "version": "earthmoving_video_v1",
+    "status": "locally_frozen_pending_team_ratification",
+    "seed": 42,
+    "selection": "first seeded 6/2/2 shuffle with 5-class support and >=2 train Move intervals",
+    "attempt_1based": 7,
+    "groups": {
+      "train": [
+        "140555",
+        "143110",
+        "144206",
+        "151341",
+        "152129",
+        "153004"
+      ],
+      "val": [
+        "142932",
+        "150625"
+      ],
+      "test": [
+        "104154",
+        "134516"
+      ]
+    },
+    "raw_interval_support": {
+      "train": [
+        12,
+        105,
+        55,
+        50,
+        2
+      ],
+      "val": [
+        5,
+        41,
+        19,
+        19,
+        1
+      ],
+      "test": [
+        10,
+        80,
+        44,
+        35,
+        1
+      ]
+    },
+    "raw_intervals_sha256": "52956509583c34d4e7c0e5faebd3b2912f95d08a6ff350352a2bd3e506bedd84",
+    "source_manifest_sha256": "3221fa7fe8e16d7b5bad6d6b983f6b6107eb82792b885c26b2d29b889b59e4eb",
+    "scene_group_status": "video-disjoint only; 10 videos from 6 projects; project identity unresolved"
+  },
+  "index": {
+    "window_frames": 64,
+    "stride_frames": 32,
+    "split_sha256": "5741a11b8098b29c7604e9454006544f63d67c23388785426286fa10ef585327",
+    "index_sha256": {
+      "clips.jsonl": "95b9b954a0f9b7829523908aedd24d9369fd923274b9e9f01a0bc8142f08061e",
+      "windows.jsonl": "da8e66d61a238307c3bbe66411e5232ab766175b1846cb35b5d0a4d9ae4600cc",
+      "boxes.jsonl": "a8bc4af66b3b98704dd7dda4e7942106f229cac4b6610ea8ba99b37490bd9a96"
+    },
+    "classification_unit": "one center window per original interval, longest valid consensus core",
+    "train_sampling": "fixed windows within interval core; class weights from raw training intervals",
+    "discarded_intervals": 0,
+    "cross_split_video_overlap": 0,
+    "cross_video_duplicate_raw_frames_excluded": [
+      [
+        "143110",
+        0
+      ],
+      [
+        "150625",
+        0
+      ],
+      [
+        "151341",
+        0
+      ],
+      [
+        "153004",
+        0
+      ]
+    ],
+    "cross_split_exact_duplicate_frames": 0,
+    "coverage": {
+      "train": {
+        "clips": 224,
+        "windows": 952,
+        "clip_class_support": [
+          12,
+          105,
+          55,
+          50,
+          2
+        ]
+      },
+      "val": {
+        "clips": 85,
+        "windows": 345,
+        "clip_class_support": [
+          5,
+          41,
+          19,
+          19,
+          1
+        ]
+      },
+      "test": {
+        "clips": 170,
+        "windows": 765,
+        "clip_class_support": [
+          10,
+          80,
+          44,
+          35,
+          1
+        ]
+      }
+    }
+  }
+}

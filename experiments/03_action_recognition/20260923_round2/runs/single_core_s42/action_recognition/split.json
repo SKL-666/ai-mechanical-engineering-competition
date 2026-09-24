@@ -1,0 +1,51 @@
+{
+  "version": "earthmoving_video_v1",
+  "status": "locally_frozen_pending_team_ratification",
+  "seed": 42,
+  "selection": "first seeded 6/2/2 shuffle with 5-class support and >=2 train Move intervals",
+  "attempt_1based": 7,
+  "groups": {
+    "train": [
+      "140555",
+      "143110",
+      "144206",
+      "151341",
+      "152129",
+      "153004"
+    ],
+    "val": [
+      "142932",
+      "150625"
+    ],
+    "test": [
+      "104154",
+      "134516"
+    ]
+  },
+  "raw_interval_support": {
+    "train": [
+      12,
+      105,
+      55,
+      50,
+      2
+    ],
+    "val": [
+      5,
+      41,
+      19,
+      19,
+      1
+    ],
+    "test": [
+      10,
+      80,
+      44,
+      35,
+      1
+    ]
+  },
+  "raw_intervals_sha256": "52956509583c34d4e7c0e5faebd3b2912f95d08a6ff350352a2bd3e506bedd84",
+  "source_manifest_sha256": "3221fa7fe8e16d7b5bad6d6b983f6b6107eb82792b885c26b2d29b889b59e4eb",
+  "scene_group_status": "video-disjoint only; 10 videos from 6 projects; project identity unresolved"
+}

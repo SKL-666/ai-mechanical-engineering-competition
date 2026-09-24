@@ -1,0 +1,415 @@
+{
+  "date": "2026-09-23",
+  "purpose": "Document reorganization only; preserve data, raw guidance, experiments, frozen protocols and code",
+  "before_protected_fingerprints": {
+    "Data": {
+      "files": 89104,
+      "bytes": 2047412013,
+      "path_size_content_index_sha256": "a0e3dec0e37ce54d86dcd1f873c31b6c8a9e7e10a0d0189b2740877711272b16"
+    },
+    "指导": {
+      "files": 3,
+      "bytes": 72580,
+      "path_size_content_index_sha256": "2a12aee995d8a1de5b4914e5546fa5889989a1ca78517e08e6aef787296ea289"
+    },
+    "experiments": {
+      "files": 1092,
+      "bytes": 26471452,
+      "path_size_content_index_sha256": "1b3c2f31565e3dc1cfc1645354b4d33a0df2d12f876311d2c60acf33881efc6a"
+    },
+    "derived": {
+      "files": 30,
+      "bytes": 33378230,
+      "path_size_content_index_sha256": "98eb8fffffa9850725133f296777cbd2f57269dfc902e2eefc1ef13499e8da62"
+    },
+    "scripts": {
+      "files": 13,
+      "bytes": 93791,
+      "path_size_content_index_sha256": "05e3f4b27322057eb47992d7154ca76eda5f041e7f8bfb821615cdf3aeff7f3a"
+    },
+    "earthmoving": {
+      "files": 8,
+      "bytes": 21073,
+      "path_size_content_index_sha256": "6b86bfaef5de712aeb830e9efc8cab4582c42e6cb906e41218c9ecbdea438c0c"
+    },
+    "tests": {
+      "files": 2,
+      "bytes": 7012,
+      "path_size_content_index_sha256": "259251d0015609a06f8680df000fde30cc7e08629a92bae3b53103345a0b4ea1"
+    },
+    "configs": {
+      "files": 3,
+      "bytes": 3959,
+      "path_size_content_index_sha256": "77f95431eeecb36389b5f81cb29f93062d98e6e6f0ab2b5993ced02646d3bb91"
+    },
+    "原始压缩包": {
+      "files": 1,
+      "bytes": 2008325653,
+      "path_size_content_index_sha256": "a98f3cc65810dbfdaa5833d349a7e5ef68399f256148cc780a16d33117efa338"
+    },
+    "requirements.txt": {
+      "files": 1,
+      "bytes": 155,
+      "path_size_content_index_sha256": "769afd5113ce6d77387440ab845fda48807659e80a5d9d20de78690289015aa3"
+    }
+  },
+  "original_document_manifest": [
+    {
+      "path": "README.md",
+      "bytes": 5512,
+      "sha256": "66659c05a76c3e046b9baa61534df3274fa43244779f33101842a6c71343535e"
+    },
+    {
+      "path": "Docs/3号_P0P1推进结果_2026-09-23.md",
+      "bytes": 13539,
+      "sha256": "436fcc3bcc32d494572674c85c364dfd70a0c292ce6a9696abc06a461ff4cd06"
+    },
+    {
+      "path": "Docs/3号_下一轮改进计划.md",
+      "bytes": 5451,
+      "sha256": "7b3c83c767dd51e5485f59b81727cae676334878d03a4cda24fc236878d87520"
+    },
+    {
+      "path": "Docs/3号_第二轮实验协议.md",
+      "bytes": 7755,
+      "sha256": "7b7b4d8958752bde424ed76468c47db787fa83c70faa05a897f396ade64adfc4"
+    },
+    {
+      "path": "Docs/3号_第二轮改进结果_2026-09-23.md",
+      "bytes": 8019,
+      "sha256": "9d20c0ea92c760fe66cea2f71ed69a8a0e354c6502791b942626a6f8fcfb5326"
+    },
+    {
+      "path": "Docs/3号_阶段复盘与数据扩充判断_2026-09-23.md",
+      "bytes": 11266,
+      "sha256": "178788f0d5ae5efb3c2e70bdc2a247b658f15fdd7e11f084ec22a3b58fa0b5d3"
+    },
+    {
+      "path": "Docs/3号同学_动作识别任务说明.md",
+      "bytes": 12644,
+      "sha256": "8aba8c3c43c38ad0e577864006f40fbbf72702b5359b55f10a3bc5e71f0dceeb"
+    },
+    {
+      "path": "Docs/Earthmoving_本地数据核查记录.md",
+      "bytes": 7239,
+      "sha256": "e0118177138f46e98350f369329a83d6ce6da5cd477069e44bb0671317cf5e33"
+    },
+    {
+      "path": "Docs/Earthmoving_训练入口方案.md",
+      "bytes": 8313,
+      "sha256": "cb0b16afb792a588c821ab9535d3f2e032f95e6bfe9ec1cafcd7d675507e6623"
+    },
+    {
+      "path": "Docs/Earthmoving与KIT_规模对比与统一训练方案.md",
+      "bytes": 13777,
+      "sha256": "275299d09e699794f7c6085c25cf6dffab88e64d86d3c68a40251ceac34f301a"
+    },
+    {
+      "path": "Docs/KIT_挖掘机子集下载核查记录.md",
+      "bytes": 1999,
+      "sha256": "f29a5e61215e80708e83ee12a57b2044cba44605ac9074b66e9231111c22045c"
+    },
+    {
+      "path": "Docs/Roboflow_动作标注候选_2026-09-22.md",
+      "bytes": 9265,
+      "sha256": "09ab082a1c095604addcfa2b632c30358f50b30f4fba83fce35242101c1fd315"
+    },
+    {
+      "path": "Docs/会话交接_3号任务推进.md",
+      "bytes": 11964,
+      "sha256": "b84698b4c6688cb9a60407ddad5e0973f0b528329342a1c528d34f947292a74f"
+    },
+    {
+      "path": "Docs/公开动作数据集检索_2026-09-22.md",
+      "bytes": 23315,
+      "sha256": "7437ab0f46d9b97b3141362d1eea3d64f2171c70ed68969014d4d85b50a97b5c"
+    },
+    {
+      "path": "Docs/项目概述.md",
+      "bytes": 5785,
+      "sha256": "1a948d21ad488135fc9e650021357950085206d7d19e8440596d52e14f2632e8"
+    }
+  ],
+  "original_search_evidence_manifest": [
+    {
+      "path": "Docs/dataset_search_2026-09-22/Shubhanflash22_Optimizing-On-Site-EV-Charging-for-Construction-Equipment_README.md",
+      "bytes": 95124,
+      "sha256": "95bd170baf2f35eca01484bff8eceea13362010486f4b9e9bb6818f281ad7a30"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/hf_simscape.json",
+      "bytes": 198804,
+      "sha256": "d044742e0119aa098765647c19d195c99e0100cc45392167435de3502d3e1d14"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_paper.txt",
+      "bytes": 56081,
+      "sha256": "0450654488df14f07f57184c734e5740415efc5b136cc1eb779123aed6d1d5d5"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/shahd-elagan_construction_computervison_README.md",
+      "bytes": 3058,
+      "sha256": "8bc5135ea802572aa8f1cf6d1ef6359e06b940acebe328affa43f011e0433a12"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/BassemFahim_eaglevision_tree.json",
+      "bytes": 14759,
+      "sha256": "a590dc7b39b2c17a6110739fa817b5ac385fc204285a11f3953f6d0ee64d553c"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_zip_manifest.json",
+      "bytes": 1609551,
+      "sha256": "7a8cf715123d7e32d6469713a82902c8a492ef20a3e77b97930c6cc6190b5635"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kaggle_mohamed_data_yaml.txt",
+      "bytes": 313,
+      "sha256": "0b9ae9e27de4b843f7a4d4e3f031da8887f1dd7f138f262b469666e45175d43b"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kaggle_vision.json",
+      "bytes": 443,
+      "sha256": "5be6142255c28b9e40c3c91f6e278eac45b8f7fb0643339ab647d31aa43de61e"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/BassemFahim_eaglevision_README.md",
+      "bytes": 16065,
+      "sha256": "66f0e3e0df63df813f659f8a9bbaef5326a8bc3a9e099d77a8a9a2d8d9b4df4e"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/MoatasemEssam_heavy_equipment_tree.json",
+      "bytes": 7359,
+      "sha256": "1a77abf24b301ab66cda3974ca9f22c8f68d9936f33542c48ae20010342de3f2"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_paper_page_9.png",
+      "bytes": 298190,
+      "sha256": "14468431a0d77a20c712e39a6fe5938c9b503cb08b15ecfd7a6575af694e6137"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kaggle_mohamed.json",
+      "bytes": 9297,
+      "sha256": "ac8db8363e96b15a58b615ded18881e43170225c649363a810e25c2f08069823"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/shahd-elagan_construction_computervison_tree.json",
+      "bytes": 3591,
+      "sha256": "97f9052e50e2a2ebf6a2cd1c90dd067ffbfd3d48529150b5ee212a78d4b0b891"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kaggle_river.json",
+      "bytes": 7973,
+      "sha256": "bcd9d63fa4e9bf73fd2d83bdd20916a12b47c017f57964abc5821fc83b18bbce"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/github_excavator_dataset.json",
+      "bytes": 173205,
+      "sha256": "ed58e498ae23fbbb232942dbd9f53240efddb037c2bba8e89aaeb975287a9687"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/hf_myrxr.json",
+      "bytes": 196,
+      "sha256": "8b6eba8b54d429bc2dfa3e0814ea844c400351d137dd3857acdf52a21d360034"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_subset_download_log.txt",
+      "bytes": 2170,
+      "sha256": "f2d7433b0f94cc75467ab587ad1a7a6494550ac9c733ff45c6dba0bfc057a6b3"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/Shubhanflash22_Optimizing-On-Site-EV-Charging-for-Construction-Equipment_tree.json",
+      "bytes": 7347077,
+      "sha256": "ecb291956a9c8177631c91eee13467b3b63f137fff87bfe448d8ef771aad6068"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_paper.pdf",
+      "bytes": 3630635,
+      "sha256": "c5de2c8e3c3e3cf9d0d1aa61bc7330427f5281431ae0215e0130d43e9929a320"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/hf_tipover.json",
+      "bytes": 10258,
+      "sha256": "8e4e488a52d0f0324d83580fd635a80d9475930aa64ab7d7c9337155b25d4048"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/huggingface_excavator.json",
+      "bytes": 11850,
+      "sha256": "3481b140c48932d82fc05bacd3ac17947ce4167f60eb941776fb1b20dd13ac60"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/svsnehaverma_ActDNN-Independent-and-Sequential-Learning-Framework-for-Accurate-Construction-Equipment-Monitoring_tree.json",
+      "bytes": 12731,
+      "sha256": "281590118c228940e1c9ce8d58c23ec2957441439d23ac87004d4d1b16e9221a"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/Basma2753_Technical-Assessment-Equipment-Utilization-and-Activity-Classification-Prototype_tree.json",
+      "bytes": 4906,
+      "sha256": "f693487661794afb70a0af812a8aaa3b901291a02f58d5f0784271923dfef547"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_paper_page_5.png",
+      "bytes": 446244,
+      "sha256": "7ac293f1ec443917faa6749206bd0389f001b004735180c4e09d16e7c561c76e"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/github_construction_action.json",
+      "bytes": 24960,
+      "sha256": "30e2516171e3ff1a18cb955c5374567c724e5051fa30363a95f2ddb8b1e12f93"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/shimaa83_construction_classification_tree.json",
+      "bytes": 1466,
+      "sha256": "236ba42b5aa13a4413f4a289dc9a71b77edddcf12b4670c966ba74a1ce5a1838"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/github_activity.json",
+      "bytes": 295414,
+      "sha256": "130bb8badd5ffd030862796f2c7a1360911f5849e32cc77887619c5a530e215d"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/indusai_Excavator-activity-recognition_tree.json",
+      "bytes": 37335,
+      "sha256": "cdb3b046db1ec4e0e7ac9f1957a2cf638104229b1550227cf8db095e5f6008c8"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/Mazen-Ahmed12_construction-detection-using-custom-yolov12_tree.json",
+      "bytes": 10316,
+      "sha256": "86946c05844cb6abee063127fed773f852779389fc0d9aeb775bd5a1b682b312"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/AsmaaMahmoudSaeed_Equipments_activity_classification_tree.json",
+      "bytes": 6180,
+      "sha256": "865587da1396d31cd7510004e9726bc3934aaa2fd7ae595bdb4c470ed9bd8804"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/dataset_size_comparison.json",
+      "bytes": 1310,
+      "sha256": "c481e22870344f2fcf0270c0d6fca99d9e126809fb5f532d63fb8b157cd3cd01"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/KhaledMohsenAlenna_Gaglevision-Technical-Computer-Vision-_tree.json",
+      "bytes": 1867,
+      "sha256": "1c05a6abe290c4d8adf2a4168d295ecbe7304a996859b652a7360a67e4f2ad49"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kaggle_excavator.json",
+      "bytes": 54285,
+      "sha256": "abc33ab0421551b124b1d354841879a8a16d3f62749c94acdbd29f2c8d5739de"
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/svsnehaverma_ActDNN-Independent-and-Sequential-Learning-Framework-for-Accurate-Construction-Equipment-Monitoring_README.md",
+      "bytes": 2455,
+      "sha256": "f4c1ac2d11cb50412ee591e1d16b6542f45735f9363c9dda0eb89dae53d08ef9"
+    }
+  ],
+  "before_active_markdown_count": 15,
+  "before_active_lines": 1568,
+  "status": "complete",
+  "moves": [
+    {
+      "from": "Docs/3号_下一轮改进计划.md",
+      "to": "Docs/archive/已完成计划/第二轮原始改进计划_2026-09-23_已执行.md"
+    },
+    {
+      "from": "Docs/公开动作数据集检索_2026-09-22.md",
+      "to": "Docs/archive/数据集检索_2026-09-22/公开动作数据集检索_2026-09-22.md"
+    },
+    {
+      "from": "Docs/Roboflow_动作标注候选_2026-09-22.md",
+      "to": "Docs/archive/数据集检索_2026-09-22/Roboflow_动作标注候选_2026-09-22.md"
+    },
+    {
+      "from": "Docs/Earthmoving与KIT_规模对比与统一训练方案.md",
+      "to": "Docs/archive/数据集检索_2026-09-22/Earthmoving与KIT_规模对比与统一训练方案.md"
+    },
+    {
+      "from": "Docs/KIT_挖掘机子集下载核查记录.md",
+      "to": "Docs/archive/数据集检索_2026-09-22/KIT_挖掘机子集下载核查记录.md"
+    },
+    {
+      "from": "Docs/KIT清理与Earthmoving保留核验_2026-09-22.json",
+      "to": "Docs/archive/数据集检索_2026-09-22/KIT清理与Earthmoving保留核验_2026-09-22.json"
+    },
+    {
+      "from": "Docs/dataset_search_2026-09-22",
+      "to": "Docs/archive/数据集检索_2026-09-22/dataset_search_2026-09-22"
+    }
+  ],
+  "new_initial_reproduction_document": "Docs/archive/已完成计划/初轮运行与复现_2026-09-23.md",
+  "after_active_markdown_count": 10,
+  "after_active_lines": 833,
+  "owned_markdown_links_checked": 17,
+  "raw_search_evidence_files_unchanged": 34,
+  "generated_report_byte_identical": true,
+  "generator_paths_unchanged_and_valid": true,
+  "after_protected_fingerprints": {
+    "Data": {
+      "files": 89104,
+      "bytes": 2047412013,
+      "path_size_content_index_sha256": "a0e3dec0e37ce54d86dcd1f873c31b6c8a9e7e10a0d0189b2740877711272b16"
+    },
+    "指导": {
+      "files": 3,
+      "bytes": 72580,
+      "path_size_content_index_sha256": "2a12aee995d8a1de5b4914e5546fa5889989a1ca78517e08e6aef787296ea289"
+    },
+    "experiments": {
+      "files": 1092,
+      "bytes": 26471452,
+      "path_size_content_index_sha256": "1b3c2f31565e3dc1cfc1645354b4d33a0df2d12f876311d2c60acf33881efc6a"
+    },
+    "derived": {
+      "files": 30,
+      "bytes": 33378230,
+      "path_size_content_index_sha256": "98eb8fffffa9850725133f296777cbd2f57269dfc902e2eefc1ef13499e8da62"
+    },
+    "scripts": {
+      "files": 13,
+      "bytes": 93791,
+      "path_size_content_index_sha256": "05e3f4b27322057eb47992d7154ca76eda5f041e7f8bfb821615cdf3aeff7f3a"
+    },
+    "earthmoving": {
+      "files": 8,
+      "bytes": 21073,
+      "path_size_content_index_sha256": "6b86bfaef5de712aeb830e9efc8cab4582c42e6cb906e41218c9ecbdea438c0c"
+    },
+    "tests": {
+      "files": 2,
+      "bytes": 7012,
+      "path_size_content_index_sha256": "259251d0015609a06f8680df000fde30cc7e08629a92bae3b53103345a0b4ea1"
+    },
+    "configs": {
+      "files": 3,
+      "bytes": 3959,
+      "path_size_content_index_sha256": "77f95431eeecb36389b5f81cb29f93062d98e6e6f0ab2b5993ced02646d3bb91"
+    },
+    "原始压缩包": {
+      "files": 1,
+      "bytes": 2008325653,
+      "path_size_content_index_sha256": "a98f3cc65810dbfdaa5833d349a7e5ef68399f256148cc780a16d33117efa338"
+    },
+    "requirements.txt": {
+      "files": 1,
+      "bytes": 155,
+      "path_size_content_index_sha256": "769afd5113ce6d77387440ab845fda48807659e80a5d9d20de78690289015aa3"
+    }
+  },
+  "all_protected_content_and_inventory_unchanged": true,
+  "backup_crc_and_document_hashes_verified": true,
+  "model_tests_rerun": false,
+  "verification_scope": "All protected file paths, sizes and SHA256 indexed; generated __pycache__ excluded. Raw search evidence independently verified at new paths. All owned Markdown local links verified; raw third-party snapshots retain original repository-relative links.",
+  "generator_changes": "None required: result report and generator paths preserved; generator references checked.",
+  "rewritten_current_documents": [
+    "README.md",
+    "Docs/会话交接_3号任务推进.md",
+    "Docs/Earthmoving_训练入口方案.md",
+    "Docs/Earthmoving_本地数据核查记录.md",
+    "Docs/3号_阶段复盘与数据扩充判断_2026-09-23.md"
+  ],
+  "other_document_edits": [
+    "P0/P1 report marked as first-stage history and completed follow-up items annotated",
+    "Task specification header deduplicated; status wording corrected",
+    "Second-round protocol plan link rebased only; frozen protocol JSON unchanged",
+    "Archived reports rebased and download statements dated as before deletion"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "package": "excavator-action-web-demo_internal-review_2026-09-24",
+  "scope": "offline local internal review; not approved for public distribution",
+  "entrypoint": "index.html; open directly with a browser, including file://",
+  "server_required": false,
+  "network_required": false,
+  "model_weights_included": false,
+  "raw_training_datasets_included": false,
+  "action_ground_truth_included": false,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 17863,
+      "sha256": "1b992c8d7a1affc387ef33201aec6de387d0f23db90ef9ad3a2e2b4beb23c15c"
+    },
+    {
+      "path": "assets/data.js",
+      "bytes": 23800,
+      "sha256": "f451aa3d75e96d6dfa5433d2f2e176d0b1527dc04244ae1550ddc6cd1f652890"
+    },
+    {
+      "path": "assets/poster.jpg",
+      "bytes": 27305,
+      "sha256": "17cc84408d5c4563573af99738fd1d6f9cc0d631a11c79ad8ad9b450073a33db"
+    },
+    {
+      "path": "assets/sample.mp4",
+      "bytes": 914819,
+      "sha256": "38a772adf26f57419b79e165182f36fc07f87a6e387360e2bfe9ae38d9a13c75"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 1041,
+      "sha256": "aa25fe12591d43e4890d8e1a8a7c19f4d32fab3c82580c9de5cacdd34db9a876"
+    }
+  ]
+}

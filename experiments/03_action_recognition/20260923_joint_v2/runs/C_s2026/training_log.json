@@ -1,0 +1,762 @@
+[
+  {
+    "epoch": 1,
+    "loss_per_step": 1.5310596625010173,
+    "lr": 0.001,
+    "val_macro_f1": 0.07307692307692307,
+    "val_accuracy": 0.2235294117647059,
+    "elapsed_seconds": 1.7073167079943232,
+    "source_class_draws": {
+      "earthmoving:0": 90,
+      "earthmoving:1": 248,
+      "earthmoving:2": 173,
+      "earthmoving:3": 169,
+      "earthmoving:4": 40,
+      "kit:1": 114,
+      "kit:2": 55,
+      "kit:3": 71,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 2,
+    "loss_per_step": 1.424806668361028,
+    "lr": 0.0009984740801978985,
+    "val_macro_f1": 0.13015873015873017,
+    "val_accuracy": 0.4823529411764706,
+    "elapsed_seconds": 3.0321758330101147,
+    "source_class_draws": {
+      "earthmoving:0": 72,
+      "earthmoving:1": 270,
+      "earthmoving:2": 173,
+      "earthmoving:3": 166,
+      "earthmoving:4": 39,
+      "kit:1": 106,
+      "kit:2": 69,
+      "kit:3": 65,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 3,
+    "loss_per_step": 1.425037795305252,
+    "lr": 0.0009939057285945933,
+    "val_macro_f1": 0.13015873015873017,
+    "val_accuracy": 0.4823529411764706,
+    "elapsed_seconds": 4.349594792001881,
+    "source_class_draws": {
+      "earthmoving:0": 84,
+      "earthmoving:1": 226,
+      "earthmoving:2": 188,
+      "earthmoving:3": 177,
+      "earthmoving:4": 45,
+      "kit:1": 104,
+      "kit:2": 74,
+      "kit:3": 62,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 4,
+    "loss_per_step": 1.362915462255478,
+    "lr": 0.00098632311059685,
+    "val_macro_f1": 0.16593406593406596,
+    "val_accuracy": 0.4588235294117647,
+    "elapsed_seconds": 5.658843542012619,
+    "source_class_draws": {
+      "earthmoving:0": 74,
+      "earthmoving:1": 251,
+      "earthmoving:2": 172,
+      "earthmoving:3": 185,
+      "earthmoving:4": 38,
+      "kit:1": 97,
+      "kit:2": 69,
+      "kit:3": 74,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 5,
+    "loss_per_step": 1.3536421994368235,
+    "lr": 0.0009757729755661011,
+    "val_macro_f1": 0.13015873015873017,
+    "val_accuracy": 0.4823529411764706,
+    "elapsed_seconds": 6.973547500005225,
+    "source_class_draws": {
+      "earthmoving:0": 97,
+      "earthmoving:1": 241,
+      "earthmoving:2": 170,
+      "earthmoving:3": 181,
+      "earthmoving:4": 31,
+      "kit:1": 98,
+      "kit:2": 79,
+      "kit:3": 63,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 6,
+    "loss_per_step": 1.3201962471008302,
+    "lr": 0.000962320368593087,
+    "val_macro_f1": 0.13015873015873017,
+    "val_accuracy": 0.4823529411764706,
+    "elapsed_seconds": 8.28079862499726,
+    "source_class_draws": {
+      "earthmoving:0": 99,
+      "earthmoving:1": 238,
+      "earthmoving:2": 185,
+      "earthmoving:3": 166,
+      "earthmoving:4": 32,
+      "kit:1": 111,
+      "kit:2": 66,
+      "kit:3": 63,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 7,
+    "loss_per_step": 1.2380540450414022,
+    "lr": 0.0009460482294732421,
+    "val_macro_f1": 0.13015873015873017,
+    "val_accuracy": 0.4823529411764706,
+    "elapsed_seconds": 9.609906917001354,
+    "source_class_draws": {
+      "earthmoving:0": 93,
+      "earthmoving:1": 243,
+      "earthmoving:2": 172,
+      "earthmoving:3": 182,
+      "earthmoving:4": 30,
+      "kit:1": 113,
+      "kit:2": 58,
+      "kit:3": 69,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 8,
+    "loss_per_step": 1.1940174023310344,
+    "lr": 0.0009270568813552756,
+    "val_macro_f1": 0.17913043478260868,
+    "val_accuracy": 0.5058823529411764,
+    "elapsed_seconds": 10.935512249998283,
+    "source_class_draws": {
+      "earthmoving:0": 78,
+      "earthmoving:1": 248,
+      "earthmoving:2": 186,
+      "earthmoving:3": 176,
+      "earthmoving:4": 32,
+      "kit:1": 93,
+      "kit:2": 82,
+      "kit:3": 65,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 9,
+    "loss_per_step": 1.1502156009276707,
+    "lr": 0.000905463412215599,
+    "val_macro_f1": 0.16345098039215686,
+    "val_accuracy": 0.3411764705882353,
+    "elapsed_seconds": 12.243543582997518,
+    "source_class_draws": {
+      "earthmoving:0": 88,
+      "earthmoving:1": 236,
+      "earthmoving:2": 197,
+      "earthmoving:3": 162,
+      "earthmoving:4": 37,
+      "kit:1": 119,
+      "kit:2": 62,
+      "kit:3": 59,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 10,
+    "loss_per_step": 1.1201262613137564,
+    "lr": 0.0008814009529720154,
+    "val_macro_f1": 0.21441613772715415,
+    "val_accuracy": 0.3411764705882353,
+    "elapsed_seconds": 13.544294708000962,
+    "source_class_draws": {
+      "earthmoving:0": 80,
+      "earthmoving:1": 246,
+      "earthmoving:2": 182,
+      "earthmoving:3": 182,
+      "earthmoving:4": 30,
+      "kit:1": 103,
+      "kit:2": 70,
+      "kit:3": 67,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 11,
+    "loss_per_step": 1.0391135305166244,
+    "lr": 0.000855017856687341,
+    "val_macro_f1": 0.20560253699788583,
+    "val_accuracy": 0.47058823529411764,
+    "elapsed_seconds": 14.940866541990545,
+    "source_class_draws": {
+      "earthmoving:0": 101,
+      "earthmoving:1": 229,
+      "earthmoving:2": 178,
+      "earthmoving:3": 181,
+      "earthmoving:4": 31,
+      "kit:1": 94,
+      "kit:2": 75,
+      "kit:3": 71,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 12,
+    "loss_per_step": 0.901191520690918,
+    "lr": 0.000826476783923441,
+    "val_macro_f1": 0.37333333333333335,
+    "val_accuracy": 0.611764705882353,
+    "elapsed_seconds": 16.336178875004407,
+    "source_class_draws": {
+      "earthmoving:0": 96,
+      "earthmoving:1": 247,
+      "earthmoving:2": 153,
+      "earthmoving:3": 186,
+      "earthmoving:4": 38,
+      "kit:1": 100,
+      "kit:2": 73,
+      "kit:3": 67,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 13,
+    "loss_per_step": 0.8766408910353979,
+    "lr": 0.0007959536998847741,
+    "val_macro_f1": 0.38335138747658404,
+    "val_accuracy": 0.4823529411764706,
+    "elapsed_seconds": 17.68427129200427,
+    "source_class_draws": {
+      "earthmoving:0": 75,
+      "earthmoving:1": 263,
+      "earthmoving:2": 182,
+      "earthmoving:3": 173,
+      "earthmoving:4": 27,
+      "kit:1": 110,
+      "kit:2": 63,
+      "kit:3": 67,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 14,
+    "loss_per_step": 0.8056008676687877,
+    "lr": 0.0007636367895343945,
+    "val_macro_f1": 0.20951897018970186,
+    "val_accuracy": 0.4117647058823529,
+    "elapsed_seconds": 19.041098499990767,
+    "source_class_draws": {
+      "earthmoving:0": 104,
+      "earthmoving:1": 236,
+      "earthmoving:2": 167,
+      "earthmoving:3": 181,
+      "earthmoving:4": 32,
+      "kit:1": 90,
+      "kit:2": 84,
+      "kit:3": 66,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 15,
+    "loss_per_step": 0.7477876007556915,
+    "lr": 0.0007297252973710755,
+    "val_macro_f1": 0.3222984562607204,
+    "val_accuracy": 0.6,
+    "elapsed_seconds": 20.407838000013726,
+    "source_class_draws": {
+      "earthmoving:0": 74,
+      "earthmoving:1": 240,
+      "earthmoving:2": 180,
+      "earthmoving:3": 186,
+      "earthmoving:4": 40,
+      "kit:1": 107,
+      "kit:2": 62,
+      "kit:3": 71,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 16,
+    "loss_per_step": 0.7053369894623757,
+    "lr": 0.0006944282990207194,
+    "val_macro_f1": 0.4842187692687137,
+    "val_accuracy": 0.6470588235294118,
+    "elapsed_seconds": 21.792690833011875,
+    "source_class_draws": {
+      "earthmoving:0": 77,
+      "earthmoving:1": 246,
+      "earthmoving:2": 195,
+      "earthmoving:3": 172,
+      "earthmoving:4": 30,
+      "kit:1": 110,
+      "kit:2": 52,
+      "kit:3": 78,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 17,
+    "loss_per_step": 0.7206094021598498,
+    "lr": 0.0006579634122155989,
+    "val_macro_f1": 0.3657282741738066,
+    "val_accuracy": 0.5882352941176471,
+    "elapsed_seconds": 23.213573749992065,
+    "source_class_draws": {
+      "earthmoving:0": 85,
+      "earthmoving:1": 253,
+      "earthmoving:2": 177,
+      "earthmoving:3": 165,
+      "earthmoving:4": 40,
+      "kit:1": 99,
+      "kit:2": 67,
+      "kit:3": 74,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 18,
+    "loss_per_step": 0.6259141474962234,
+    "lr": 0.0006205554551086731,
+    "val_macro_f1": 0.2206060606060606,
+    "val_accuracy": 0.4823529411764706,
+    "elapsed_seconds": 24.688927125011105,
+    "source_class_draws": {
+      "earthmoving:0": 87,
+      "earthmoving:1": 268,
+      "earthmoving:2": 171,
+      "earthmoving:3": 165,
+      "earthmoving:4": 29,
+      "kit:1": 99,
+      "kit:2": 71,
+      "kit:3": 70,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 19,
+    "loss_per_step": 0.5716644855837028,
+    "lr": 0.0005824350601949142,
+    "val_macro_f1": 0.20083916083916087,
+    "val_accuracy": 0.4,
+    "elapsed_seconds": 26.14352812501602,
+    "source_class_draws": {
+      "earthmoving:0": 86,
+      "earthmoving:1": 264,
+      "earthmoving:2": 192,
+      "earthmoving:3": 153,
+      "earthmoving:4": 25,
+      "kit:1": 87,
+      "kit:2": 68,
+      "kit:3": 85,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 20,
+    "loss_per_step": 0.5595028472443422,
+    "lr": 0.0005438372523852832,
+    "val_macro_f1": 0.22780291603821015,
+    "val_accuracy": 0.4235294117647059,
+    "elapsed_seconds": 27.601613917009672,
+    "source_class_draws": {
+      "earthmoving:0": 77,
+      "earthmoving:1": 260,
+      "earthmoving:2": 186,
+      "earthmoving:3": 168,
+      "earthmoving:4": 29,
+      "kit:1": 107,
+      "kit:2": 66,
+      "kit:3": 67,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 21,
+    "loss_per_step": 0.4517023722330729,
+    "lr": 0.0005049999999999999,
+    "val_macro_f1": 0.21725152294257985,
+    "val_accuracy": 0.43529411764705883,
+    "elapsed_seconds": 29.05671854200773,
+    "source_class_draws": {
+      "earthmoving:0": 95,
+      "earthmoving:1": 230,
+      "earthmoving:2": 177,
+      "earthmoving:3": 185,
+      "earthmoving:4": 33,
+      "kit:1": 98,
+      "kit:2": 74,
+      "kit:3": 68,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 22,
+    "loss_per_step": 0.49037663216392197,
+    "lr": 0.0004661627476147167,
+    "val_macro_f1": 0.2852095937770095,
+    "val_accuracy": 0.5411764705882353,
+    "elapsed_seconds": 30.497965874994406,
+    "source_class_draws": {
+      "earthmoving:0": 83,
+      "earthmoving:1": 268,
+      "earthmoving:2": 188,
+      "earthmoving:3": 160,
+      "earthmoving:4": 21,
+      "kit:1": 94,
+      "kit:2": 69,
+      "kit:3": 77,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 23,
+    "loss_per_step": 0.4183399410297473,
+    "lr": 0.00042756493980508576,
+    "val_macro_f1": 0.3129433795990306,
+    "val_accuracy": 0.5647058823529412,
+    "elapsed_seconds": 31.908360625006026,
+    "source_class_draws": {
+      "earthmoving:0": 67,
+      "earthmoving:1": 246,
+      "earthmoving:2": 177,
+      "earthmoving:3": 197,
+      "earthmoving:4": 33,
+      "kit:1": 99,
+      "kit:2": 72,
+      "kit:3": 69,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 24,
+    "loss_per_step": 0.3937114008391897,
+    "lr": 0.0003894445448913268,
+    "val_macro_f1": 0.3175118734339124,
+    "val_accuracy": 0.5647058823529412,
+    "elapsed_seconds": 33.30039395799395,
+    "source_class_draws": {
+      "earthmoving:0": 81,
+      "earthmoving:1": 240,
+      "earthmoving:2": 182,
+      "earthmoving:3": 181,
+      "earthmoving:4": 36,
+      "kit:1": 95,
+      "kit:2": 75,
+      "kit:3": 70,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 25,
+    "loss_per_step": 0.391378033409516,
+    "lr": 0.000352036587784401,
+    "val_macro_f1": 0.24915514592933946,
+    "val_accuracy": 0.5176470588235295,
+    "elapsed_seconds": 34.745396375015844,
+    "source_class_draws": {
+      "earthmoving:0": 78,
+      "earthmoving:1": 268,
+      "earthmoving:2": 186,
+      "earthmoving:3": 162,
+      "earthmoving:4": 26,
+      "kit:1": 104,
+      "kit:2": 70,
+      "kit:3": 66,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 26,
+    "loss_per_step": 0.3586850038419167,
+    "lr": 0.0003155717009792805,
+    "val_macro_f1": 0.46406714926499976,
+    "val_accuracy": 0.6823529411764706,
+    "elapsed_seconds": 36.17696154199075,
+    "source_class_draws": {
+      "earthmoving:0": 85,
+      "earthmoving:1": 248,
+      "earthmoving:2": 196,
+      "earthmoving:3": 157,
+      "earthmoving:4": 34,
+      "kit:1": 96,
+      "kit:2": 65,
+      "kit:3": 79,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 27,
+    "loss_per_step": 0.32821803788344067,
+    "lr": 0.00028027470262892423,
+    "val_macro_f1": 0.28706977402629574,
+    "val_accuracy": 0.5411764705882353,
+    "elapsed_seconds": 37.59976154199103,
+    "source_class_draws": {
+      "earthmoving:0": 83,
+      "earthmoving:1": 244,
+      "earthmoving:2": 179,
+      "earthmoving:3": 175,
+      "earthmoving:4": 39,
+      "kit:1": 99,
+      "kit:2": 65,
+      "kit:3": 76,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 28,
+    "loss_per_step": 0.342190316443642,
+    "lr": 0.0002463632104656052,
+    "val_macro_f1": 0.3036780221000611,
+    "val_accuracy": 0.5529411764705883,
+    "elapsed_seconds": 39.0489079580002,
+    "source_class_draws": {
+      "earthmoving:0": 89,
+      "earthmoving:1": 263,
+      "earthmoving:2": 165,
+      "earthmoving:3": 168,
+      "earthmoving:4": 35,
+      "kit:1": 100,
+      "kit:2": 71,
+      "kit:3": 69,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 29,
+    "loss_per_step": 0.26009275261312725,
+    "lr": 0.00021404630011522574,
+    "val_macro_f1": 0.2920793613888243,
+    "val_accuracy": 0.5411764705882353,
+    "elapsed_seconds": 40.49894812499406,
+    "source_class_draws": {
+      "earthmoving:0": 68,
+      "earthmoving:1": 263,
+      "earthmoving:2": 185,
+      "earthmoving:3": 169,
+      "earthmoving:4": 35,
+      "kit:1": 99,
+      "kit:2": 69,
+      "kit:3": 72,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 30,
+    "loss_per_step": 0.24010897607853016,
+    "lr": 0.00018352321607655907,
+    "val_macro_f1": 0.31840140535792705,
+    "val_accuracy": 0.5647058823529412,
+    "elapsed_seconds": 41.88461454201024,
+    "source_class_draws": {
+      "earthmoving:0": 73,
+      "earthmoving:1": 261,
+      "earthmoving:2": 179,
+      "earthmoving:3": 178,
+      "earthmoving:4": 29,
+      "kit:1": 97,
+      "kit:2": 69,
+      "kit:3": 74,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 31,
+    "loss_per_step": 0.2515670605624715,
+    "lr": 0.00015498214331265893,
+    "val_macro_f1": 0.3029023285685277,
+    "val_accuracy": 0.5529411764705883,
+    "elapsed_seconds": 43.327611916989554,
+    "source_class_draws": {
+      "earthmoving:0": 92,
+      "earthmoving:1": 248,
+      "earthmoving:2": 173,
+      "earthmoving:3": 171,
+      "earthmoving:4": 36,
+      "kit:1": 103,
+      "kit:2": 68,
+      "kit:3": 69,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 32,
+    "loss_per_step": 0.2803856585174799,
+    "lr": 0.0001285990470279847,
+    "val_macro_f1": 0.3563803854421703,
+    "val_accuracy": 0.6,
+    "elapsed_seconds": 44.78576025000075,
+    "source_class_draws": {
+      "earthmoving:0": 90,
+      "earthmoving:1": 245,
+      "earthmoving:2": 199,
+      "earthmoving:3": 161,
+      "earthmoving:4": 25,
+      "kit:1": 99,
+      "kit:2": 60,
+      "kit:3": 81,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 33,
+    "loss_per_step": 0.2276663308342298,
+    "lr": 0.00010453658778440102,
+    "val_macro_f1": 0.3036780221000611,
+    "val_accuracy": 0.5529411764705883,
+    "elapsed_seconds": 46.2178899999999,
+    "source_class_draws": {
+      "earthmoving:0": 82,
+      "earthmoving:1": 242,
+      "earthmoving:2": 190,
+      "earthmoving:3": 169,
+      "earthmoving:4": 37,
+      "kit:1": 107,
+      "kit:2": 58,
+      "kit:3": 75,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 34,
+    "loss_per_step": 0.2194198127835989,
+    "lr": 8.294311864472433e-05,
+    "val_macro_f1": 0.3311739181304399,
+    "val_accuracy": 0.5764705882352941,
+    "elapsed_seconds": 47.66374750001705,
+    "source_class_draws": {
+      "earthmoving:0": 89,
+      "earthmoving:1": 237,
+      "earthmoving:2": 186,
+      "earthmoving:3": 171,
+      "earthmoving:4": 37,
+      "kit:1": 100,
+      "kit:2": 81,
+      "kit:3": 59,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 35,
+    "loss_per_step": 0.18463352878267567,
+    "lr": 6.395177052675792e-05,
+    "val_macro_f1": 0.27665703861356034,
+    "val_accuracy": 0.5294117647058824,
+    "elapsed_seconds": 49.100642417004565,
+    "source_class_draws": {
+      "earthmoving:0": 86,
+      "earthmoving:1": 284,
+      "earthmoving:2": 166,
+      "earthmoving:3": 148,
+      "earthmoving:4": 36,
+      "kit:1": 115,
+      "kit:2": 62,
+      "kit:3": 63,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 36,
+    "loss_per_step": 0.2026539858430624,
+    "lr": 4.7679631406913044e-05,
+    "val_macro_f1": 0.3031627715553988,
+    "val_accuracy": 0.5529411764705883,
+    "elapsed_seconds": 50.53425941700698,
+    "source_class_draws": {
+      "earthmoving:0": 96,
+      "earthmoving:1": 218,
+      "earthmoving:2": 184,
+      "earthmoving:3": 182,
+      "earthmoving:4": 40,
+      "kit:1": 105,
+      "kit:2": 71,
+      "kit:3": 64,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 37,
+    "loss_per_step": 0.2131875723367557,
+    "lr": 3.422702443389899e-05,
+    "val_macro_f1": 0.3036780221000611,
+    "val_accuracy": 0.5529411764705883,
+    "elapsed_seconds": 51.86453879199689,
+    "source_class_draws": {
+      "earthmoving:0": 82,
+      "earthmoving:1": 253,
+      "earthmoving:2": 168,
+      "earthmoving:3": 182,
+      "earthmoving:4": 35,
+      "kit:1": 105,
+      "kit:2": 55,
+      "kit:3": 80,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 38,
+    "loss_per_step": 0.210238662113746,
+    "lr": 2.3676889403150102e-05,
+    "val_macro_f1": 0.3031627715553988,
+    "val_accuracy": 0.5529411764705883,
+    "elapsed_seconds": 53.19794041701243,
+    "source_class_draws": {
+      "earthmoving:0": 88,
+      "earthmoving:1": 275,
+      "earthmoving:2": 172,
+      "earthmoving:3": 152,
+      "earthmoving:4": 33,
+      "kit:1": 88,
+      "kit:2": 87,
+      "kit:3": 65,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 39,
+    "loss_per_step": 0.195731483399868,
+    "lr": 1.609427140540686e-05,
+    "val_macro_f1": 0.3031627715553988,
+    "val_accuracy": 0.5529411764705883,
+    "elapsed_seconds": 54.593657582998276,
+    "source_class_draws": {
+      "earthmoving:0": 80,
+      "earthmoving:1": 219,
+      "earthmoving:2": 207,
+      "earthmoving:3": 181,
+      "earthmoving:4": 33,
+      "kit:1": 79,
+      "kit:2": 80,
+      "kit:3": 81,
+      "rathan:0": 120
+    }
+  },
+  {
+    "epoch": 40,
+    "loss_per_step": 0.19180546075416108,
+    "lr": 1.1525919802101659e-05,
+    "val_macro_f1": 0.29000604592808493,
+    "val_accuracy": 0.5411764705882353,
+    "elapsed_seconds": 55.99640366699896,
+    "source_class_draws": {
+      "earthmoving:0": 89,
+      "earthmoving:1": 284,
+      "earthmoving:2": 172,
+      "earthmoving:3": 143,
+      "earthmoving:4": 32,
+      "kit:1": 97,
+      "kit:2": 65,
+      "kit:3": 78,
+      "rathan:0": 120
+    }
+  }
+]

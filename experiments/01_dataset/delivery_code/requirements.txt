@@ -1,0 +1,5 @@
+# Tested with Python 3.11.16 on Apple Silicon; torchvision/OpenCV/MMAction2 are not required.
+torch==2.14.0
+numpy==2.4.6
+Pillow==12.3.0
+matplotlib==3.11.1

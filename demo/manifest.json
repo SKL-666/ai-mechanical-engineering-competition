@@ -1,0 +1,15 @@
+{
+  "video_source": "Data/frames_ce/142932/142932_Ixxxxx.jpg",
+  "fixed_frame_range": [
+    1500,
+    2250
+  ],
+  "selection": "fixed visible interval chosen for motion, without reading action labels or boundaries",
+  "model_selection": "v2 continuous_test/selection_before_continuous_test.json; validation-only seed choice",
+  "freeze_sha256": "e8528ca85a5ae6bfc643a232c67574b39541bbd34a2a74cc6a53eea5a957b2d1",
+  "sample_video_sha256": "38a772adf26f57419b79e165182f36fc07f87a6e387360e2bfe9ae38d9a13c75",
+  "data_js_sha256": "f451aa3d75e96d6dfa5433d2f2e176d0b1527dc04244ae1550ddc6cd1f652890",
+  "build_script_sha256": "e2bb50663adda0ec4be42f90865fde267781e721829d121ac2ab4348da80ec62",
+  "no_action_truth_access_guard": "active",
+  "no_data_upload": true
+}

@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>挖掘机动作识别 · 本地演示</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101923;
+      --panel: #182632;
+      --panel-2: #20313e;
+      --line: #314653;
+      --text: #eef3f4;
+      --muted: #a3b5bc;
+      --accent: #f6bd62;
+      --idle: #8fa6bb;
+      --swing: #5bb8f4;
+      --load: #efbf63;
+      --dump: #f58b70;
+      --move: #63d5b7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 85% -20%, #284957 0, transparent 43%), var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+      line-height: 1.45;
+    }
+    button { font: inherit; cursor: pointer; }
+    .shell { max-width: 1370px; margin: auto; padding: 28px clamp(18px, 4vw, 48px) 48px; }
+    .topline { display: flex; align-items: center; gap: 12px; color: var(--accent); font-size: 12px; letter-spacing: .14em; font-weight: 700; }
+    .topline::before { content: ""; width: 20px; height: 2px; background: var(--accent); }
+    header { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin: 12px 0 24px; }
+    h1 { font-size: clamp(28px, 3vw, 43px); line-height: 1.15; margin: 0 0 8px; letter-spacing: -.03em; }
+    .subtitle { margin: 0; color: var(--muted); font-size: 14px; }
+    .badge { white-space: nowrap; border: 1px solid #46616e; border-radius: 999px; padding: 8px 14px; color: #cfe0e5; font-size: 12px; }
+    .workspace { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(290px, 1fr); gap: 20px; }
+    .panel { background: rgba(24,38,50,.96); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 12px 38px #0002; overflow: hidden; }
+    .video-wrap { position: relative; background: #0c141a; aspect-ratio: 480 / 272; }
+    video { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .video-tag { position: absolute; left: 16px; top: 16px; padding: 5px 9px; background: #0b171dc9; border: 1px solid #ffffff3a; border-radius: 6px; font-size: 11px; letter-spacing: .1em; }
+    .video-status { position: absolute; left: 16px; bottom: 16px; right: 16px; display: flex; align-items: end; justify-content: space-between; gap: 12px; pointer-events: none; }
+    .status-card { padding: 9px 12px; background: #0b171de6; backdrop-filter: blur(8px); border: 1px solid #ffffff30; border-radius: 8px; }
+    .status-title { display: block; color: var(--muted); font-size: 11px; letter-spacing: .08em; }
+    .status-action { font-size: 22px; font-weight: 750; }
+    .status-confidence { font-variant-numeric: tabular-nums; font-size: 13px; color: #dce7e9; }
+    .controls { padding: 15px 18px; display: flex; align-items: center; gap: 14px; }
+    .play { border: none; border-radius: 8px; background: var(--accent); color: #1d2830; min-width: 80px; padding: 8px 12px; font-weight: 750; }
+    .time { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; min-width: 86px; }
+    .seek { flex: 1; accent-color: var(--accent); min-width: 80px; cursor: pointer; }
+    .speed { border: 1px solid var(--line); border-radius: 7px; color: #d9e7eb; background: var(--panel-2); padding: 7px 9px; font-size: 12px; }
+    .side { padding: 20px; }
+    .section-title { font-size: 12px; letter-spacing: .12em; color: var(--muted); font-weight: 750; margin: 0 0 12px; }
+    .models { display: grid; gap: 8px; }
+    .model { width: 100%; border: 1px solid var(--line); border-radius: 10px; background: #172732; color: var(--text); text-align: left; padding: 11px 13px; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    .model:hover { border-color: #718994; }
+    .model.active { border-color: var(--accent); background: #283745; box-shadow: inset 3px 0 var(--accent); }
+    .model-name { display: block; font-size: 14px; font-weight: 700; }
+    .model-description { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .model-dot { border: 1px solid currentColor; border-radius: 50%; width: 14px; height: 14px; flex: none; }
+    .model.active .model-dot { background: var(--accent); border-color: var(--accent); box-shadow: inset 0 0 0 3px #283745; }
+    .divider { border: 0; border-top: 1px solid var(--line); margin: 20px 0; }
+    .readout { display: flex; justify-content: space-between; align-items: end; gap: 12px; }
+    .readout-name { font-size: 27px; font-weight: 780; line-height: 1.15; }
+    .readout-en { color: var(--muted); font-size: 12px; margin-top: 3px; }
+    .readout-confidence { font-size: 24px; font-weight: 750; font-variant-numeric: tabular-nums; }
+    .readout-confidence small { display: block; font-size: 10px; font-weight: 500; color: var(--muted); text-align: right; }
+    .probabilities { margin-top: 18px; display: grid; gap: 8px; }
+    .prob-row { display: grid; grid-template-columns: 106px 1fr 43px; align-items: center; gap: 8px; color: #dce7eb; font-size: 11px; }
+    .prob-bar { height: 7px; background: #0e1a23; border-radius: 999px; overflow: hidden; }
+    .prob-fill { display: block; height: 100%; border-radius: inherit; width: 0; transition: width .16s linear; }
+    .prob-value { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+    .timeline-panel { margin-top: 20px; padding: 20px; }
+    .timeline-heading { display: flex; justify-content: space-between; gap: 18px; align-items: baseline; margin-bottom: 12px; }
+    .timeline-heading h2 { font-size: 17px; margin: 0; }
+    .timeline-heading p { font-size: 12px; color: var(--muted); margin: 0; }
+    .timeline { height: 35px; position: relative; display: flex; overflow: hidden; border-radius: 7px; background: #253542; cursor: pointer; }
+    .segment { height: 100%; border: 0; border-right: 1px solid #0c1a2340; padding: 0; min-width: 1px; opacity: .85; }
+    .segment:hover { opacity: 1; filter: brightness(1.16); }
+    .warmup { background: #657783; }
+    .playhead { position: absolute; top: 0; bottom: 0; width: 2px; background: white; box-shadow: 0 0 6px #111; pointer-events: none; }
+    .ticks { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; margin-top: 7px; font-variant-numeric: tabular-nums; }
+    .legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 11px; color: var(--muted); margin-top: 18px; }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .legend i { width: 9px; height: 9px; border-radius: 2px; }
+    .events { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 14px; }
+    .event { border: 1px solid var(--line); border-radius: 8px; background: #1a2b37; padding: 8px 10px; text-align: left; color: var(--text); min-width: 0; }
+    .event:hover { background: #263b49; }
+    .event-time { color: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+    .event-label { font-size: 12px; font-weight: 700; margin-top: 3px; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    footer { color: var(--muted); font-size: 11px; margin-top: 18px; line-height: 1.6; }
+    @media (max-width: 950px) { .workspace { grid-template-columns: 1fr; } .events { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 600px) { header { display: block; } .badge { display: inline-block; margin-top: 14px; } .events { grid-template-columns: 1fr; } .timeline-heading { display: block; } .timeline-heading p { margin-top: 4px; } }
+  </style>
+</head>
+<body>
+<main class="shell">
+  <div class="topline">LOCAL DEMO / ACTION RECOGNITION</div>
+  <header>
+    <div>
+      <h1>挖掘机动作识别</h1>
+      <p class="subtitle">Earthmoving 验证视频 142932 · 原视频 01:00–01:30 · 固定 30 秒演示片段</p>
+    </div>
+    <div class="badge">离线运行 · 5 类动作 · 3 组模型</div>
+  </header>
+
+  <div class="workspace">
+    <section class="panel" aria-label="演示视频">
+      <div class="video-wrap">
+        <video id="video" src="assets/sample.mp4" poster="assets/poster.jpg" playsinline preload="metadata" aria-label="挖掘机作业视频"></video>
+        <div class="video-tag">EXCAVATOR / 01</div>
+        <div class="video-status">
+          <div class="status-card"><span class="status-title">当前预测</span><span class="status-action" id="overlayAction">暖机中</span></div>
+          <div class="status-card status-confidence" id="overlayConfidence">前 2.5 秒等待历史窗</div>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="play" id="playButton" aria-label="播放视频">播放</button>
+        <span class="time" id="timeText">00:00 / 00:30</span>
+        <input class="seek" id="seek" type="range" min="0" max="30" step="0.04" value="0" aria-label="视频进度">
+        <button class="speed" id="speedButton" aria-label="切换播放速度">1×</button>
+      </div>
+    </section>
+
+    <aside class="panel side">
+      <div class="section-title">模型对照</div>
+      <div class="models" id="modelButtons" role="group" aria-label="选择模型"></div>
+      <hr class="divider">
+      <div class="section-title">实时判读</div>
+      <div class="readout">
+        <div><div class="readout-name" id="actionName">暖机中</div><div class="readout-en" id="actionEnglish">等待 64 帧历史输入</div></div>
+        <div class="readout-confidence"><span id="confidence">—</span><small>模型置信度</small></div>
+      </div>
+      <div class="probabilities" id="probabilities"></div>
+    </aside>
+  </div>
+
+  <section class="panel timeline-panel" aria-label="动作时间轴">
+    <div class="timeline-heading">
+      <h2>预测动作时间轴</h2>
+      <p>点击色块跳转 · 仅显示模型输出，不显示真值动作边界</p>
+    </div>
+    <div class="timeline" id="timeline"><div class="playhead" id="playhead"></div></div>
+    <div class="ticks"><span>00:00</span><span>00:05</span><span>00:10</span><span>00:15</span><span>00:20</span><span>00:25</span><span>00:30</span></div>
+    <div class="legend" id="legend"></div>
+    <div class="events" id="events"></div>
+  </section>
+  <footer>
+    本地研究演示。视频来自 Earthmoving 的验证视频固定时间范围；回放按发布方资料中的 25 fps，时间基准仍待确认。预测使用固定 64 帧历史窗、每 8 帧更新；未读取动作真值，也未接入真实检测跟踪。B/C 使用的补充来源尚未完成对外使用核验，请勿将本页或模型作为正式发布成果。
+  </footer>
+</main>
+<script src="assets/data.js"></script>
+<script>
+(() => {
+  const data = window.DEMO_DATA;
+  if (!data) { document.body.innerHTML = "<p>缺少演示数据，请先运行 build_demo.py。</p>"; return; }
+  const names = ["空闲", "铲斗回转", "装载铲斗", "卸料", "整机移动"];
+  const colors = ["var(--idle)", "var(--swing)", "var(--load)", "var(--dump)", "var(--move)"];
+  const video = document.getElementById("video");
+  const seek = document.getElementById("seek");
+  const duration = data.video.duration_seconds;
+  let arm = data.default_arm;
+  let speedIndex = 1;
+  const speeds = [0.5, 1, 1.5, 2];
+  const $ = id => document.getElementById(id);
+  const clock = t => {
+    const m = Math.floor(t / 60);
+    const s = Math.floor(t % 60);
+    return String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
+  };
+  const stamp = t => clock(t) + "." + Math.floor((t % 1) * 10);
+
+  for (const [key, model] of Object.entries(data.models)) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "model";
+    button.dataset.arm = key;
+    button.innerHTML = '<span><span class="model-name"></span><span class="model-description"></span></span><span class="model-dot"></span>';
+    button.querySelector(".model-name").textContent = model.label;
+    button.querySelector(".model-description").textContent = model.description + " · " + model.run;
+    button.addEventListener("click", () => { arm = key; renderModel(); });
+    $("modelButtons").appendChild(button);
+  }
+  names.forEach((name, i) => {
+    const item = document.createElement("span");
+    item.innerHTML = '<i></i><span></span>';
+    item.querySelector("i").style.background = colors[i];
+    item.querySelector("span").textContent = name;
+    $("legend").appendChild(item);
+    const bar = document.createElement("div");
+    bar.className = "prob-row";
+    bar.innerHTML = '<span></span><div class="prob-bar"><span class="prob-fill"></span></div><span class="prob-value">0%</span>';
+    bar.querySelector("span").textContent = name;
+    bar.querySelector(".prob-fill").style.background = colors[i];
+    $("probabilities").appendChild(bar);
+  });
+
+  function currentDecision(t) {
+    const rows = data.models[arm].decisions;
+    const frame = Math.min(data.video.frame_count - 1, Math.floor(t * data.video.fps_assumed));
+    if (frame < rows[0].at_frame) return null;
+    let low = 0, high = rows.length - 1;
+    while (low < high) {
+      const mid = Math.ceil((low + high) / 2);
+      if (rows[mid].at_frame <= frame) low = mid; else high = mid - 1;
+    }
+    return rows[low];
+  }
+  function updateReadout() {
+    const t = Math.min(video.currentTime || 0, duration);
+    seek.value = t;
+    $("timeText").textContent = clock(t) + " / " + clock(duration);
+    $("playhead").style.left = (t / duration * 100) + "%";
+    const row = currentDecision(t);
+    const bars = [...$("probabilities").children];
+    if (!row) {
+      $("overlayAction").textContent = $("actionName").textContent = "暖机中";
+      $("actionEnglish").textContent = "等待 64 帧历史输入";
+      $("confidence").textContent = "—";
+      $("overlayConfidence").textContent = "前 2.5 秒等待历史窗";
+      bars.forEach(bar => { bar.querySelector(".prob-fill").style.width = "0%"; bar.querySelector(".prob-value").textContent = "0%"; });
+      return;
+    }
+    const value = row.probabilities[row.label];
+    $("overlayAction").textContent = $("actionName").textContent = names[row.label];
+    $("actionName").style.color = colors[row.label];
+    $("actionEnglish").textContent = data.classes[row.label];
+    $("confidence").textContent = Math.round(value * 100) + "%";
+    $("overlayConfidence").textContent = "置信度 " + Math.round(value * 100) + "%";
+    bars.forEach((bar, i) => {
+      bar.querySelector(".prob-fill").style.width = (row.probabilities[i] * 100) + "%";
+      bar.querySelector(".prob-value").textContent = Math.round(row.probabilities[i] * 100) + "%";
+    });
+  }
+  function renderModel() {
+    [...$("modelButtons").children].forEach(button => {
+      const active = button.dataset.arm === arm;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    const timeline = $("timeline");
+    timeline.querySelectorAll(".segment").forEach(node => node.remove());
+    const warm = document.createElement("button");
+    warm.className = "segment warmup";
+    warm.style.width = (data.models[arm].decisions[0].at_frame / data.video.frame_count * 100) + "%";
+    warm.title = "暖机中";
+    warm.addEventListener("click", () => { video.currentTime = 0; });
+    timeline.insertBefore(warm, $("playhead"));
+    $("events").replaceChildren();
+    data.models[arm].segments.forEach(segment => {
+      const start = segment.start_frame / data.video.fps_assumed;
+      const end = segment.end_frame / data.video.fps_assumed;
+      const block = document.createElement("button");
+      block.className = "segment";
+      block.style.width = ((segment.end_frame - segment.start_frame) / data.video.frame_count * 100) + "%";
+      block.style.background = colors[segment.label];
+      block.title = stamp(start) + "–" + stamp(end) + " " + names[segment.label];
+      block.setAttribute("aria-label", block.title);
+      block.addEventListener("click", () => { video.currentTime = start; });
+      timeline.insertBefore(block, $("playhead"));
+      const item = document.createElement("button");
+      item.className = "event";
+      item.innerHTML = '<span class="event-time"></span><span class="event-label"></span>';
+      item.querySelector(".event-time").textContent = stamp(start) + "–" + stamp(end) + " · " + Math.round(segment.mean_confidence * 100) + "%";
+      item.querySelector(".event-label").textContent = names[segment.label];
+      item.querySelector(".event-label").style.color = colors[segment.label];
+      item.addEventListener("click", () => { video.currentTime = start; });
+      $("events").appendChild(item);
+    });
+    updateReadout();
+  }
+  $("playButton").addEventListener("click", () => { if (video.paused) video.play(); else video.pause(); });
+  $("speedButton").addEventListener("click", () => {
+    speedIndex = (speedIndex + 1) % speeds.length;
+    video.playbackRate = speeds[speedIndex];
+    $("speedButton").textContent = speeds[speedIndex] + "×";
+  });
+  seek.max = duration;
+  seek.addEventListener("input", () => { video.currentTime = Number(seek.value); updateReadout(); });
+  video.addEventListener("timeupdate", updateReadout);
+  video.addEventListener("play", () => { $("playButton").textContent = "暂停"; });
+  video.addEventListener("pause", () => { $("playButton").textContent = "播放"; });
+  video.addEventListener("loadedmetadata", updateReadout);
+  document.addEventListener("keydown", event => {
+    if (event.code === "Space" && !["BUTTON", "INPUT"].includes(document.activeElement.tagName)) {
+      event.preventDefault();
+      if (video.paused) video.play(); else video.pause();
+    }
+  });
+  renderModel();
+})();
+</script>
+</body>
+</html>

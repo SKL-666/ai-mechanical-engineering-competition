@@ -1,0 +1,15 @@
+{
+  "checkpoint_sha256": "53cd92d12618abdad1a65773076408e6072a8219701cc868f7af1173f1bcc595",
+  "freeze_sha256": "d043951dee3efa6cc11e970fb946cc550f46f0582f1a8dde09c66e003574cc43",
+  "test_index_sha256": "5d26547c4596152973318c05936e5d2d7ce01f8c68f6134e6cbf7b5420099e63",
+  "metrics": {
+    "accuracy": 0.34705882352941175,
+    "precision": 0.13694444444444445,
+    "recall": 0.19045454545454546,
+    "macro_f1": 0.15715370018975333
+  },
+  "seconds": 0.08655479201115668,
+  "fps_scope": "cached clip tensors through model forward; excludes detector/tracker and source decoding",
+  "original_test_previously_viewed": true,
+  "source_mapping_and_rights_provisional": true
+}

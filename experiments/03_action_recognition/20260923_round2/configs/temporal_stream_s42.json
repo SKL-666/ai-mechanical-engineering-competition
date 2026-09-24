@@ -1,0 +1,18 @@
+{
+  "model": "temporal",
+  "frames": 8,
+  "seed": 42,
+  "epochs": 40,
+  "samples_per_epoch": 960,
+  "batch_size": 32,
+  "lr": 0.001,
+  "device": "mps",
+  "sampling": "intervals",
+  "training_mode": "stream",
+  "weighted": false,
+  "input_size": 96,
+  "letterbox": false,
+  "augment": false,
+  "crop": "per_frame",
+  "margin": 0.0
+}

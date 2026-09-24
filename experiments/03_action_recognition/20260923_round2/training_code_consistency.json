@@ -1,0 +1,28 @@
+{
+  "runs_checked": [
+    "S0_windows",
+    "S1_intervals",
+    "S2_unweighted",
+    "S3_letterbox96",
+    "S4_letterbox128",
+    "S5_augmentation",
+    "S6_union",
+    "single_core_s42",
+    "single_stream_s2026",
+    "single_stream_s3407",
+    "single_stream_s42",
+    "temporal_core_s42",
+    "temporal_stream_s2026",
+    "temporal_stream_s3407",
+    "temporal_stream_s42"
+  ],
+  "core_experiment_code_identical": true,
+  "sha256": {
+    "earthmoving/round2_data.py": "b095be7c78885b2b529f1e63ef0c9c7e783321202c95afa1f7cf7dfdf5d66d02",
+    "earthmoving/round2_model.py": "588b305b6f7d0bfcb898b420ae64b3f0d61ac9655d927bfd6362f4a7c8f8dd51",
+    "earthmoving/round2_metrics.py": "819c4607ecc0fa9b2839a804f024b9ea3e86c3d58827f62f55177aa39c3a2fe7",
+    "scripts/round2_action.py": "91d12ee9dc140b94e1ec9ba904515e60937360c720db9dd5416fad45521c4120",
+    "scripts/round2_continuous.py": "50fce3d044963d1afa2ed3a12f98c7fa7afc63b8be23be5dd1a7414dc99023d9",
+    "scripts/run_round2.py": "7c990a38474cec72e18456c652ca74d591fe1f5b35e296210ffc3ceebd7a35c3"
+  }
+}

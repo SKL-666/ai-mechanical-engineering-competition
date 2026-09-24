@@ -1,0 +1,2 @@
+video_id,equipment_id,start_frame,end_frame,start_time,end_time,pred_action,confidence
+104154,1,63,16419,2.52,656.76,swing_bucket,0.9984627977272327

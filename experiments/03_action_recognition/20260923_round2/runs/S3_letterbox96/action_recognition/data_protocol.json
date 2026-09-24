@@ -1,0 +1,17 @@
+{
+  "history_window_frames": 64,
+  "stream_training_index_stride": 8,
+  "clip_eval_unit": "unchanged v1 per-interval center windows; endpoint prediction",
+  "frames_per_model_input": 1,
+  "sample_strategy": "uniform indices including endpoint; single uses endpoint",
+  "training_target": "consensus label of last frame only",
+  "missing_or_conflicting_target": "skip, never fill Idle",
+  "RGB_range": [
+    0,
+    1
+  ],
+  "bbox_source": "XML ground truth",
+  "pretrained": false,
+  "confidence": "softmax / causal EMA of softmax; not calibrated",
+  "global_protocol": "/Users/mac/Project/AI+机械工程大赛/experiments/03_action_recognition/20260923_round2/protocol.json"
+}

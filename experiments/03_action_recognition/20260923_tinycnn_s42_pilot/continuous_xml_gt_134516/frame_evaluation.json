@@ -1,0 +1,18 @@
+{
+  "unit": "frame, post-hoc consensus labels only",
+  "bbox_source": "xml_gt_prototype_NOT_team2_integration",
+  "metrics": {
+    "accuracy": 0.36422441398744715,
+    "precision": 0.3345401423649983,
+    "recall": 0.3412794072205754,
+    "macro_f1": 0.3051738880043755
+  },
+  "all_frames": 15864,
+  "valid_truth_frames": 15676,
+  "evaluated_frames": 15614,
+  "valid_truth_without_prediction": 62,
+  "ignored_truth_frames": 188,
+  "coverage_of_valid_truth": 0.9960449094156673,
+  "includes_temporal_segment_metrics": false,
+  "prediction_sha256": "ea3c5cec34469160449762e3363f71d1a1a6c1636a273e979325da93513c3bb6"
+}

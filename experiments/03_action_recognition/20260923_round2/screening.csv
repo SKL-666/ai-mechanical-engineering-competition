@@ -1,0 +1,8 @@
+experiment,val_macro_f1,model,frames,seed,epochs,samples_per_epoch,batch_size,lr,device,sampling,training_mode,weighted,input_size,letterbox,augment,crop,margin
+S0_windows,0.42152854664132866,single,1,42,20,960,32,0.001,mps,windows,core,True,96,False,False,per_frame,0.0
+S1_intervals,0.39046153846153847,single,1,42,20,960,32,0.001,mps,intervals,core,True,96,False,False,per_frame,0.0
+S2_unweighted,0.46473526473526466,single,1,42,20,960,32,0.001,mps,intervals,core,False,96,False,False,per_frame,0.0
+S3_letterbox96,0.38821548821548824,single,1,42,20,960,32,0.001,mps,intervals,core,False,96,True,False,per_frame,0.0
+S4_letterbox128,0.37266700662927077,single,1,42,20,960,32,0.001,mps,intervals,core,False,128,True,False,per_frame,0.0
+S5_augmentation,0.3327117166373591,single,1,42,20,960,32,0.001,mps,intervals,core,False,128,True,True,per_frame,0.0
+S6_union,0.3446666666666667,single,1,42,20,960,32,0.001,mps,intervals,core,False,128,True,True,union,0.1

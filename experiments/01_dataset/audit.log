@@ -1,0 +1,11 @@
+104154: decoded 16419 frames; 76 intervals; ignored 153
+134516: decoded 15864 frames; 94 intervals; ignored 188
+140555: decoded 7317 frames; 48 intervals; ignored 97
+142932: decoded 11381 frames; 53 intervals; ignored 106
+143110: decoded 8517 frames; 45 intervals; ignored 116
+144206: decoded 8277 frames; 37 intervals; ignored 75
+150625: decoded 3808 frames; 32 intervals; ignored 65
+151341: decoded 5593 frames; 30 intervals; ignored 60
+152129: decoded 6012 frames; 32 intervals; ignored 66
+153004: decoded 5878 frames; 32 intervals; ignored 65
+{"frames": 89066, "raw_intervals": 479, "excavator_boxes": 89058, "ignored_frames": 991}

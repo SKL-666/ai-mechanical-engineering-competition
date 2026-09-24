@@ -1,0 +1,12 @@
+{
+  "stride": 8,
+  "alpha": 1.0,
+  "smoothing": "causal EMA of class probabilities; reset on gaps",
+  "nominal_ema_mean_age_frames": 0.0,
+  "mean_age_is_not_bound_on_decision_delay": true,
+  "warmup_frames": 63,
+  "latest_sample_age_frames": 0,
+  "probabilities_sha256": "32d1777d81592a2c04cb2640301b9bb805a17997910958e4b0d96744548b18c6",
+  "segments_created_before_reading_truth": true,
+  "source": "XML_GT_track_availability_full_frame_not_team2"
+}

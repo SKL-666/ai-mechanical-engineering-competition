@@ -1,0 +1,37 @@
+{
+  "version": "joint_training_20260923_v2",
+  "hypothesis": "moderate class-balanced source sampling and less supplemental dilution may improve five-class Earthmoving transfer",
+  "classes": ["Idle", "Swing Bucket", "Load Bucket", "Dump", "Move"],
+  "arms": {
+    "A": {"earthmoving_temporal_per_step": 16, "kit_temporal_per_step": 0, "rathan_still_per_step": 0},
+    "B": {"earthmoving_temporal_per_step": 12, "kit_temporal_per_step": 4, "rathan_still_per_step": 0},
+    "C": {"earthmoving_temporal_per_step": 12, "kit_temporal_per_step": 4, "rathan_still_per_step": 2}
+  },
+  "sampling": "within each source choose class with probability proportional to sqrt(class row count), then choose a row uniformly within that class; with replacement",
+  "class_count_power": 0.5,
+  "seeds": [42, 3407, 2026],
+  "epochs": 40,
+  "steps_per_epoch": 60,
+  "temporal_batch_size": 16,
+  "rathan_aux_loss_weight": 0.05,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler": "cosine to 0.00001",
+  "model": "same round2 ActionNet temporal as joint v1; Rathan still bypasses temporal head",
+  "pretrained": false,
+  "temporal_frames": 8,
+  "image_size": 128,
+  "temporal_input": "same full RGB frame letterbox fixed 8-frame candidate clips as joint v1",
+  "rathan_input": "same single published Idle bbox crop as joint v1; never repeated as video",
+  "validation": "unchanged 85 Earthmoving clips; five-class Macro-F1; earliest best epoch wins",
+  "test": "do not read or evaluate until all nine runs complete and validation selection is frozen",
+  "continuous_test": "fixed 64-frame history, stride 8, EMA alpha 1.0; best validation clip seed per arm",
+  "known_limits": [
+    "only two Earthmoving training Move intervals exist; balanced sampling repeats them and cannot create new scenes",
+    "KIT labels, original-video groups and independent data use terms remain provisional",
+    "Rathan Idle is a static publisher label and original footage rights are unconfirmed",
+    "the original Earthmoving test set has been viewed in earlier experiments",
+    "C has extra still-image compute; A/B/C have equal temporal draws and optimizer updates"
+  ]
+}

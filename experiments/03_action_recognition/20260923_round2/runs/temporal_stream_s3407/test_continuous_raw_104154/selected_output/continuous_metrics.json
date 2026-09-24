@@ -1,0 +1,126 @@
+{
+  "frame_metrics": {
+    "accuracy": 0.48981858570899667,
+    "precision": 0.3101444161275535,
+    "recall": 0.34351700058567425,
+    "macro_f1": 0.28558053476201184
+  },
+  "class_metrics": [
+    {
+      "class": "idle",
+      "precision": 0.3455255681818182,
+      "recall": 0.5879154078549849,
+      "f1": 0.4352493849250727,
+      "support": 1655
+    },
+    {
+      "class": "swing_bucket",
+      "precision": 0.7131099353321576,
+      "recall": 0.2398181099248715,
+      "f1": 0.35892883562657196,
+      "support": 5058
+    },
+    {
+      "class": "load_bucket",
+      "precision": 0.4920865771237916,
+      "recall": 0.8898514851485149,
+      "f1": 0.6337244532584145,
+      "support": 6464
+    },
+    {
+      "class": "dump",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2888
+    },
+    {
+      "class": "move",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 141
+    }
+  ],
+  "confusion": [
+    [
+      973,
+      0,
+      682,
+      0,
+      0
+    ],
+    [
+      956,
+      1213,
+      2889,
+      0,
+      0
+    ],
+    [
+      224,
+      488,
+      5752,
+      0,
+      0
+    ],
+    [
+      663,
+      0,
+      2225,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      141,
+      0,
+      0
+    ]
+  ],
+  "valid_truth_frames": 16266,
+  "evaluated_frames": 16206,
+  "valid_truth_without_prediction": 60,
+  "ignored_truth_frames": 153,
+  "coverage": 0.9963113242345998,
+  "edit": 0.5178571428571428,
+  "segment_counts": {
+    "0.1": [
+      42,
+      70,
+      33
+    ],
+    "0.25": [
+      36,
+      76,
+      39
+    ],
+    "0.5": [
+      15,
+      97,
+      60
+    ]
+  },
+  "segment_f1": {
+    "0.1": 0.44919786096256686,
+    "0.25": 0.3850267379679144,
+    "0.5": 0.16042780748663102
+  },
+  "boundary": {
+    "tolerance_frames": 16,
+    "matched": 10,
+    "true_boundaries": 74,
+    "predicted_scored_boundaries": 111,
+    "precision": 0.09009009009009009,
+    "recall": 0.13513513513513514,
+    "matched_distance_to_truth_bracket_mean_frames": 9.4,
+    "boundary_rule": "class-pair-aware nearest one-to-one matching; unknown-only transitions unscored"
+  },
+  "temporal_metric_axis": "remove unknown truth frames inside each prediction-covered component; IoU measured in remaining known-frame counts; do not bridge prediction gaps",
+  "exact_boundary_ground_truth_claimed": false,
+  "video_id": "104154",
+  "stride": 8,
+  "alpha": 0.5,
+  "source": "XML_GT_PROTOTYPE_NOT_TEAM2"
+}

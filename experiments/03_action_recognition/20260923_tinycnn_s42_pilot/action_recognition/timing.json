@@ -1,0 +1,13 @@
+{
+  "input_frames": 170,
+  "clips": 170,
+  "end_to_end_seconds": 0.1516928749915678,
+  "model_seconds": 0.06799058197066188,
+  "input_frames_per_second": 1120.685464030198,
+  "clips_per_second": 1120.685464030198,
+  "model_input_frames_per_second": 2500.346299041174,
+  "timed_scope": "JPEG read/decode + crop/resize + tensor transfer + model/softmax + collect; excludes CSV/plot writing",
+  "model_scope": "forward + softmax with device synchronization; excludes transfer and preprocessing",
+  "warmup_batches": 3,
+  "includes_detector_tracker": false
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-22",
+  "user_decision": "Only Earthmoving Equipment is used; remove KIT dataset. No Tianjin/Roboflow/other supplementary datasets in current scope.",
+  "removed": [
+    {
+      "path": "Data_KIT",
+      "files": 312,
+      "mp4_files": 304,
+      "logical_bytes": 818717382
+    },
+    {
+      "path": "scripts/download_kit_excavator.py",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 10076
+    },
+    {
+      "path": "scripts/verify_kit_subset.py",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 5449
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/probe_kit_zip.py",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 4503
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_sample_Swinging_003.mp4",
+      "files": 1,
+      "mp4_files": 1,
+      "logical_bytes": 619852
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_label_samples.json",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 1445
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/verification_summary.json",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 2371
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_zip_tail.bin",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 131072
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_download_response.html",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 2429
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_http_headers.txt",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 5687
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/kit_probe_log.txt",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 4298
+    },
+    {
+      "path": "scripts/__pycache__/verify_kit_subset.cpython-314.pyc",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 9743
+    },
+    {
+      "path": "Docs/dataset_search_2026-09-22/__pycache__/probe_kit_zip.cpython-314.pyc",
+      "files": 1,
+      "mp4_files": 0,
+      "logical_bytes": 10586
+    }
+  ],
+  "total_removed_logical_bytes": 819524893,
+  "removed_mp4_files": 305,
+  "earthmoving_before": {
+    "files": 89104,
+    "jpg_files": 89066,
+    "logical_bytes": 2047412013,
+    "path_size_mtime_sha256": "c9dcbe2720e72b7591963e1e334170b0278f490d1c5c8e5f9db2257b9d4c2d39",
+    "archive_bytes": 2008325653,
+    "archive_mtime_ns": 1789978351121765969
+  },
+  "earthmoving_after": {
+    "files": 89104,
+    "jpg_files": 89066,
+    "logical_bytes": 2047412013,
+    "path_size_mtime_sha256": "c9dcbe2720e72b7591963e1e334170b0278f490d1c5c8e5f9db2257b9d4c2d39",
+    "archive_bytes": 2008325653,
+    "archive_mtime_ns": 1789978351121765969
+  },
+  "earthmoving_inventory_unchanged": true,
+  "remaining_project_mp4_files": [],
+  "retained_material": "Historical literature, dataset file-list metadata, search reports and size statistics only; no KIT media or annotation samples."
+}

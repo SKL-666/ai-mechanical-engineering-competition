@@ -1,0 +1,22 @@
+{
+  "groups_per_class": [
+    12,
+    105,
+    55,
+    50,
+    2
+  ],
+  "loss_weights": [
+    1.0538409979975638,
+    0.3562632813059949,
+    0.4922484625531375,
+    0.516274543023884,
+    2.58137271511942
+  ],
+  "draws_per_epoch": 960,
+  "sampling": "windows",
+  "training_mode": "core",
+  "all_original_train_intervals": 224,
+  "available_source_rows": 952,
+  "groups": 224
+}

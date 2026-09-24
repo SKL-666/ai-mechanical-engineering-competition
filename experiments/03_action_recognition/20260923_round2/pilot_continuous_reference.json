@@ -1,0 +1,44 @@
+{
+  "model": "pilot single center frame",
+  "accuracy": 0.26143934632306726,
+  "macro_f1": 0.21747653580287518,
+  "evaluated_frames": 31820,
+  "confusion": [
+    [
+      1802,
+      964,
+      767,
+      180,
+      0
+    ],
+    [
+      4322,
+      1803,
+      2943,
+      1393,
+      160
+    ],
+    [
+      9158,
+      236,
+      3509,
+      18,
+      0
+    ],
+    [
+      534,
+      331,
+      2354,
+      1205,
+      0
+    ],
+    [
+      134,
+      0,
+      7,
+      0,
+      0
+    ]
+  ],
+  "purpose": "fixed historical reference only; not used in round2 validation choice"
+}

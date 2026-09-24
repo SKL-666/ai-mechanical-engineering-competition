@@ -1,0 +1,35 @@
+{
+  "version": "joint_training_20260923_v1",
+  "purpose": "local controlled A/B/C training; supplemental rights and mappings remain provisional",
+  "classes": ["Idle", "Swing Bucket", "Load Bucket", "Dump", "Move"],
+  "arms": {
+    "A": {"earthmoving_temporal_per_step": 16, "kit_temporal_per_step": 0, "rathan_still_per_step": 0},
+    "B": {"earthmoving_temporal_per_step": 8, "kit_temporal_per_step": 8, "rathan_still_per_step": 0},
+    "C": {"earthmoving_temporal_per_step": 8, "kit_temporal_per_step": 8, "rathan_still_per_step": 4}
+  },
+  "seeds": [42, 3407, 2026],
+  "epochs": 40,
+  "steps_per_epoch": 60,
+  "temporal_batch_size": 16,
+  "rathan_aux_loss_weight": 0.25,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "scheduler": "cosine to 0.00001",
+  "model": "round2 ActionNet temporal; Rathan still bypasses temporal head",
+  "pretrained": false,
+  "temporal_frames": 8,
+  "image_size": 128,
+  "temporal_input": "full RGB frame letterbox; fixed 8-frame candidate clips",
+  "rathan_input": "one published Idle bbox crop; never repeated as video",
+  "sampling": "with replacement within each source, fixed source counts per optimizer step",
+  "validation": "frozen 85 Earthmoving clips; five-class Macro-F1; earliest best epoch wins",
+  "test": "do not read or evaluate until all A/B/C seeds finish and selection is frozen",
+  "known_limits": [
+    "Earthmoving original action endpoint and FPS semantics remain unresolved",
+    "KIT class mapping, original-video groups and independent data use terms remain unconfirmed",
+    "Rathan Idle is a static publisher label and original footage rights are unconfirmed",
+    "the original Earthmoving test set has been viewed in earlier experiments",
+    "A/B/C have equal optimizer updates and total temporal clip draws, but C has additional still-image compute"
+  ]
+}

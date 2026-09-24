@@ -1,0 +1,20 @@
+{
+  "raw_files_sha256_verified_unchanged": 89108,
+  "raw_inventory_unchanged": true,
+  "includes_original_zip_and_guidance": true,
+  "checkpoint_reload_predictions_byte_identical": true,
+  "test_prediction_count": 170,
+  "continuous": {
+    "104154": {
+      "windows": 512,
+      "causal_grid_verified": true
+    },
+    "134516": {
+      "windows": 494,
+      "causal_grid_verified": true
+    }
+  },
+  "source_manifest_sha256": "3221fa7fe8e16d7b5bad6d6b983f6b6107eb82792b885c26b2d29b889b59e4eb",
+  "external_csv_adapter_xml_fixture_matches_direct_xml": true,
+  "external_csv_fixture_is_real_team2_tracks": false
+}

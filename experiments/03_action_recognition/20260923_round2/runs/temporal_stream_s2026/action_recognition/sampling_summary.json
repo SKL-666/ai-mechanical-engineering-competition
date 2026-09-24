@@ -1,0 +1,22 @@
+{
+  "groups_per_class": [
+    12,
+    105,
+    54,
+    50,
+    2
+  ],
+  "loss_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "draws_per_epoch": 960,
+  "sampling": "intervals",
+  "training_mode": "stream",
+  "all_original_train_intervals": 224,
+  "available_source_rows": 5092,
+  "groups": 223
+}

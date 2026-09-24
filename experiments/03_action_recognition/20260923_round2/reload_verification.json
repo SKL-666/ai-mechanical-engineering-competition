@@ -1,0 +1,6 @@
+{
+  "predeclared_validation_winner": "temporal_stream_s42",
+  "test_prediction_csv_byte_identical": true,
+  "prediction_sha256": "a44fa9d8ac0c11dc52f4ae26f68bf53bfa2389969f760d1805ace3be3d0f727d",
+  "independent_training": false
+}

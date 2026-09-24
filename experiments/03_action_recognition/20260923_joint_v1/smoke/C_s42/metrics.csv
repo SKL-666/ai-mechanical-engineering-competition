@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,macro_f1,fps
+temporal_joint_v1,0.2235294117647059,0.04470588235294118,0.2,0.07307692307692307,

@@ -1,0 +1,31 @@
+{
+  "checkpoint_sha256": "547bf2add6f66d5bdc1e5fd198967b235b978cab8f94c81eb2cfbd2422849c32",
+  "tracks_sha256": "a8bc4af66b3b98704dd7dda4e7942106f229cac4b6610ea8ba99b37490bd9a96",
+  "video_id": "104154",
+  "equipment_ids": [
+    "1"
+  ],
+  "frames": 16419,
+  "bbox_source": "xml_gt_prototype_NOT_team2_integration",
+  "window_frames": 64,
+  "stride_frames": 32,
+  "sampled_frames_per_window": 1,
+  "fps": 25,
+  "fps_basis": "publisher Ground truth data search excerpt; no local timestamp validation",
+  "action_labels_read": false,
+  "action_truth_access_guard": "Python audit hook raises on action label/index/consensus file access",
+  "boundary_trigger": "fixed global frame grid only",
+  "causal": true,
+  "output_semantics": "At input end-1, hold prediction for next stride frames; never backdate to input window start",
+  "smoothing": "none; only merge contiguous equal predicted classes, duration-weighted confidence",
+  "warmup_frames": 63,
+  "decision_interval_frames": 32,
+  "future_frames_used_relative_to_available_at": 0,
+  "single_frame_center_sample_age_frames": 32,
+  "run_mode": "offline replay of causal decisions; not a wall-clock live stream",
+  "windows_predicted": 512,
+  "wall_seconds": 0.8305255000013858,
+  "sampled_input_frames_per_second": 616.4771581355969,
+  "timed_scope": "track completeness lookup + JPEG/crop/resize + transfer + forward + softmax + collect, batch=1; no detector/tracker",
+  "command": "scripts/infer_continuous.py --checkpoint experiments/03_action_recognition/20260923_tinycnn_s42_pilot/action_recognition/best.pt --video 104154 --xml-gt-prototype derived/earthmoving_v1 --out experiments/03_action_recognition/20260923_tinycnn_s42_pilot/continuous_xml_gt_104154"
+}

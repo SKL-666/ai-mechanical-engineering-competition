@@ -1,0 +1,10 @@
+{
+  "python": "3.11.16",
+  "numpy": "2.4.6",
+  "pillow": "12.3.0",
+  "scipy": "1.17.1",
+  "torch": "2.14.0",
+  "imageio_ffmpeg": "0.6.0",
+  "ffmpeg_binary": "/Users/mac/Project/AI+机械工程大赛/.venv/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+  "scope": "data_preflight_only"
+}

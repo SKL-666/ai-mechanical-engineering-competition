@@ -1,0 +1,14 @@
+{
+  "val_metrics": {
+    "accuracy": 0.611764705882353,
+    "precision": 0.3794285714285714,
+    "recall": 0.44005134788189987,
+    "macro_f1": 0.38821548821548824
+  },
+  "selected_epoch": 15,
+  "training_seconds": 16.690676041005645,
+  "parameters": 90277,
+  "checkpoint_sha256": "4a7d7174ccac83b28a7d7a0bbe96aeb27124bc9f3abe28108ab8a59e3aaded9e",
+  "test_evaluated": false,
+  "epochs_completed": 20
+}

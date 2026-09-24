@@ -1,0 +1,32 @@
+{
+  "version": "round2_20260923_v1",
+  "data": "Earthmoving only; original five classes; immutable v1 video split",
+  "pretrained": false,
+  "screen_seed": 42,
+  "screen_epochs": 20,
+  "main_epochs": 40,
+  "samples_per_epoch": 960,
+  "batch_size": 32,
+  "seeds": [42, 3407, 2026],
+  "screening": [
+    "S0: window sampling, weighted CE, 96 stretch, per-frame crop, no augmentation",
+    "S1: change S0 to uniform original-interval sampling and random internal window",
+    "S2: change S1 to unweighted CE",
+    "Choose loss between S1/S2 by validation clip Macro-F1, earliest experiment wins ties",
+    "S3: selected loss + interval sampling + letterbox96",
+    "S4: change S3 to letterbox128",
+    "S5: change S4 to shared brightness/contrast augmentation [0.85,1.15]",
+    "S6: change S5 to past-window union box plus 10 percent margin"
+  ],
+  "preprocessing_choice": "highest validation clip Macro-F1 among S1..S6; earliest wins ties; S0 control only",
+  "main_families": ["single_core", "temporal_core", "single_stream", "temporal_stream"],
+  "main_model": "same 2D encoder; single last-frame versus 8-frame causal temporal conv, from scratch",
+  "checkpoint_selection": "maximum validation clip Macro-F1 on unchanged 85 clips; earliest epoch wins ties",
+  "continuous_candidates": {"stride_frames": [8, 16], "ema_alpha": [1.0, 0.5]},
+  "deployment_choice": "highest pooled validation continuous frame Macro-F1 across 4 families and 4 postprocess settings; ties prefer earliest (single_core, no smoothing, stride8)",
+  "repeat_rule": "freeze training mode from deployment winner; train both single and temporal models in this mode at seeds42,3407,2026; same sampling budget and clip units",
+  "postprocess_for_repeats": "freeze one setting per model selected using seed42 validation predictions only; never retune per seed",
+  "test_rule": "no candidate test evaluation until freeze.json exists and remaining independent seed training finishes; evaluate all 6 frozen finalists, never select by test results",
+  "metric_policy": "fixed 5-class macro, zero division=0; masked known-frame segment IoU/Edit, interval-valued GT boundary tolerance16 frames",
+  "limitations": "2 validation videos; pilot test already inspected; no fresh blind test claim; no team2 real tracks; FPS25 publisher-excerpt basis; TXT endpoints unresolved"
+}

@@ -1,0 +1,99 @@
+{
+  "protocol_sha256": "0a95a8ddbce4c619d0e5e0dc27ee06eb8c930a5c1ffadd3560457a23647bd0f1",
+  "split_sha256": "5741a11b8098b29c7604e9454006544f63d67c23388785426286fa10ef585327",
+  "screen_winner": "S2_unweighted",
+  "deployment_validation_winner": {
+    "run": "temporal_stream_s42",
+    "stride": 8,
+    "alpha": 0.5,
+    "accuracy": 0.6938734381297864,
+    "precision": 0.5211681275428741,
+    "recall": 0.49513079569920454,
+    "macro_f1": 0.5029007489472833,
+    "evaluated_frames": 14886,
+    "coverage": 0.9912105473431881,
+    "edit_video_mean": 0.6799193316047248,
+    "segment_f1_at_0.1": 0.7323943661971831,
+    "segment_f1_at_0.25": 0.704225352112676,
+    "segment_f1_at_0.5": 0.5727699530516432
+  },
+  "selected_training_mode": "stream",
+  "final_configs": {
+    "single": {
+      "model": "single",
+      "frames": 1,
+      "seed": 42,
+      "epochs": 40,
+      "samples_per_epoch": 960,
+      "batch_size": 32,
+      "lr": 0.001,
+      "device": "mps",
+      "sampling": "intervals",
+      "training_mode": "stream",
+      "weighted": false,
+      "input_size": 96,
+      "letterbox": false,
+      "augment": false,
+      "crop": "per_frame",
+      "margin": 0.0
+    },
+    "temporal": {
+      "model": "temporal",
+      "frames": 8,
+      "seed": 42,
+      "epochs": 40,
+      "samples_per_epoch": 960,
+      "batch_size": 32,
+      "lr": 0.001,
+      "device": "mps",
+      "sampling": "intervals",
+      "training_mode": "stream",
+      "weighted": false,
+      "input_size": 96,
+      "letterbox": false,
+      "augment": false,
+      "crop": "per_frame",
+      "margin": 0.0
+    }
+  },
+  "postprocess": {
+    "single": {
+      "run": "single_stream_s42",
+      "stride": 8,
+      "alpha": 0.5,
+      "accuracy": 0.7038156657261857,
+      "precision": 0.5552570566474715,
+      "recall": 0.4856748847502043,
+      "macro_f1": 0.5008494548541347,
+      "evaluated_frames": 14886,
+      "coverage": 0.9912105473431881,
+      "edit_video_mean": 0.7016369047619048,
+      "segment_f1_at_0.1": 0.72,
+      "segment_f1_at_0.25": 0.66,
+      "segment_f1_at_0.5": 0.55
+    },
+    "temporal": {
+      "run": "temporal_stream_s42",
+      "stride": 8,
+      "alpha": 0.5,
+      "accuracy": 0.6938734381297864,
+      "precision": 0.5211681275428741,
+      "recall": 0.49513079569920454,
+      "macro_f1": 0.5029007489472833,
+      "evaluated_frames": 14886,
+      "coverage": 0.9912105473431881,
+      "edit_video_mean": 0.6799193316047248,
+      "segment_f1_at_0.1": 0.7323943661971831,
+      "segment_f1_at_0.25": 0.704225352112676,
+      "segment_f1_at_0.5": 0.5727699530516432
+    }
+  },
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "decision_basis": "train and validation only; no round2 test evaluation has run",
+  "pilot_test_previously_seen": true,
+  "freeze_created_utc": "2026-09-22T17:11:39.270759+00:00"
+}

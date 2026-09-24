@@ -1,0 +1,16 @@
+{
+  "input_frames": 170,
+  "clips": 170,
+  "end_to_end_seconds": 0.11296008300269023,
+  "model_seconds": 0.026738501037470996,
+  "input_frames_per_second": 1504.956401244423,
+  "clips_per_second": 1504.956401244423,
+  "model_input_frames_per_second": 6357.873231628211,
+  "timed_scope": "JPEG read/decode + crop/resize + tensor transfer + model/softmax + collect; excludes CSV/plot writing",
+  "model_scope": "forward + softmax with device synchronization; excludes transfer and preprocessing",
+  "warmup_batches": 3,
+  "includes_detector_tracker": false,
+  "raw_image_lru_cache_entries": 256,
+  "batch_size": 32,
+  "sampled_frames_per_clip": 1
+}

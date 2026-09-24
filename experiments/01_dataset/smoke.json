@@ -1,0 +1,15 @@
+{
+  "all_classification_clips_read": {
+    "train": 224,
+    "val": 85,
+    "test": 170
+  },
+  "all_training_windows_read": 952,
+  "logits_shape": [
+    1,
+    5
+  ],
+  "mps_forward": "pass",
+  "csv": "smoke_UNTRAINED_train_examples.csv",
+  "csv_purpose": "untrained format check, not model evaluation"
+}

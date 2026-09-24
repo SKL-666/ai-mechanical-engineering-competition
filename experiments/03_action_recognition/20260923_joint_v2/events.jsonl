@@ -1,0 +1,19 @@
+{"utc": "2026-09-23T11:35:00.271679+00:00", "event": "train_start", "run": "A_s42", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "A", "--seed", "42"]}
+{"utc": "2026-09-23T11:35:50.888944+00:00", "event": "train_complete", "run": "A_s42", "selected_epoch": 18, "val_macro_f1": 0.5890526817356085}
+{"utc": "2026-09-23T11:35:50.889177+00:00", "event": "train_start", "run": "A_s3407", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "A", "--seed", "3407"]}
+{"utc": "2026-09-23T11:36:42.045011+00:00", "event": "train_complete", "run": "A_s3407", "selected_epoch": 19, "val_macro_f1": 0.5759766081871345}
+{"utc": "2026-09-23T11:36:42.045197+00:00", "event": "train_start", "run": "A_s2026", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "A", "--seed", "2026"]}
+{"utc": "2026-09-23T11:37:32.433977+00:00", "event": "train_complete", "run": "A_s2026", "selected_epoch": 28, "val_macro_f1": 0.5962814208517073}
+{"utc": "2026-09-23T11:37:32.434163+00:00", "event": "train_start", "run": "B_s42", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "B", "--seed", "42"]}
+{"utc": "2026-09-23T11:38:22.443978+00:00", "event": "train_complete", "run": "B_s42", "selected_epoch": 21, "val_macro_f1": 0.47570738440303656}
+{"utc": "2026-09-23T11:38:22.444192+00:00", "event": "train_start", "run": "B_s3407", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "B", "--seed", "3407"]}
+{"utc": "2026-09-23T11:39:12.262565+00:00", "event": "train_complete", "run": "B_s3407", "selected_epoch": 27, "val_macro_f1": 0.5051129426129426}
+{"utc": "2026-09-23T11:39:12.262755+00:00", "event": "train_start", "run": "B_s2026", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "B", "--seed", "2026"]}
+{"utc": "2026-09-23T11:40:02.518765+00:00", "event": "train_complete", "run": "B_s2026", "selected_epoch": 22, "val_macro_f1": 0.43388991185766956}
+{"utc": "2026-09-23T11:40:02.518984+00:00", "event": "train_start", "run": "C_s42", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "C", "--seed", "42"]}
+{"utc": "2026-09-23T11:40:57.141374+00:00", "event": "train_complete", "run": "C_s42", "selected_epoch": 35, "val_macro_f1": 0.4171069322354512}
+{"utc": "2026-09-23T11:40:57.141582+00:00", "event": "train_start", "run": "C_s3407", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "C", "--seed", "3407"]}
+{"utc": "2026-09-23T11:41:51.748143+00:00", "event": "train_complete", "run": "C_s3407", "selected_epoch": 31, "val_macro_f1": 0.6730409852361072}
+{"utc": "2026-09-23T11:41:51.748306+00:00", "event": "train_start", "run": "C_s2026", "command": ["/Users/mac/Project/AI+机械工程大赛/.venv/bin/python", "/Users/mac/Project/AI+机械工程大赛/scripts/train_joint_v2.py", "train", "--arm", "C", "--seed", "2026"]}
+{"utc": "2026-09-23T11:42:48.943489+00:00", "event": "train_complete", "run": "C_s2026", "selected_epoch": 16, "val_macro_f1": 0.4842187692687137}
+{"utc": "2026-09-23T11:42:48.944166+00:00", "event": "validation_selection_frozen", "freeze_sha256": "e8528ca85a5ae6bfc643a232c67574b39541bbd34a2a74cc6a53eea5a957b2d1", "run_count": 9}

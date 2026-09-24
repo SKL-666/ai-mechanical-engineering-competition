@@ -1,0 +1,20 @@
+[
+  {
+    "epoch": 1,
+    "loss_per_step": 2.036799907684326,
+    "lr": 0.001,
+    "val_macro_f1": 0.07307692307692307,
+    "val_accuracy": 0.2235294117647059,
+    "elapsed_seconds": 0.8157522089895792,
+    "source_class_draws": {
+      "earthmoving:0": 1,
+      "earthmoving:1": 3,
+      "earthmoving:2": 3,
+      "earthmoving:3": 1,
+      "kit:1": 5,
+      "kit:2": 2,
+      "kit:3": 1,
+      "rathan:0": 4
+    }
+  }
+]

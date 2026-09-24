@@ -1,0 +1,30 @@
+{
+  "version": "joint_preflight_20260923_v1",
+  "status": "provisional_data_mapping_not_training_approval",
+  "classes": [
+    "Idle",
+    "Swing Bucket",
+    "Load Bucket",
+    "Dump",
+    "Move"
+  ],
+  "earthmoving": {
+    "policy": "retain_frozen_v1_video_split_and_original_class_ids"
+  },
+  "kit": {
+    "Digging": {"class_id": 2, "basis": "publisher clip category plus sampled frames; provisional"},
+    "Dumping": {"class_id": 3, "basis": "publisher clip category plus sampled frames; provisional"},
+    "Hauling": {"class_id": 1, "basis": "proposed loaded-bucket rotation folded into Swing Bucket; provisional"},
+    "Swinging": {"class_id": 1, "basis": "proposed empty-bucket rotation folded into Swing Bucket; provisional"}
+  },
+  "rathan": {
+    "Excavator - Idle": {"class_id": 0, "basis": "publisher COCO box label; still images only"}
+  },
+  "excluded": {
+    "kit_keyframes": "not independently additive and numbered frame groups not proved aligned with named MP4 clips",
+    "kit_test_videos": "no confirmed action truth",
+    "rathan_other_classes": "Working and Bucket Load/Unload semantics not safely equivalent to original five classes",
+    "rathan_augmented_copies": "one deterministic representative per original source-like filename",
+    "dumptruck_categories": "not excavator actions"
+  }
+}

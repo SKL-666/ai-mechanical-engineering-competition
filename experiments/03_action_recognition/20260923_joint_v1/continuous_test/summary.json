@@ -1,0 +1,61 @@
+{
+  "selection": {
+    "A": {
+      "run": "A_s42",
+      "val_macro_f1": 0.5858461538461538,
+      "checkpoint_sha256": "40c2328daccb87818e55ceecd136f86814e68490b2147c6feec0c20f692a6e4a"
+    },
+    "B": {
+      "run": "B_s3407",
+      "val_macro_f1": 0.4777213622291022,
+      "checkpoint_sha256": "2c1e9dd43c69ab3571c4044f1010130360bad32d9122fc44e2bb55f1b632e7d9"
+    },
+    "C": {
+      "run": "C_s3407",
+      "val_macro_f1": 0.2637639090469279,
+      "checkpoint_sha256": "53cd92d12618abdad1a65773076408e6072a8219701cc868f7af1173f1bcc595"
+    }
+  },
+  "pooled_test": {
+    "A": {
+      "accuracy": 0.4201759899434318,
+      "precision": 0.22129996437832689,
+      "recall": 0.23810895085758985,
+      "macro_f1": 0.19798635002130877,
+      "evaluated_frames": 31820,
+      "coverage": 0.9961805772963497,
+      "edit_video_mean": 0.508695652173913,
+      "segment_f1_at_0.1": 0.3699421965317919,
+      "segment_f1_at_0.25": 0.30057803468208094,
+      "segment_f1_at_0.5": 0.14450867052023122
+    },
+    "B": {
+      "accuracy": 0.3737272155876807,
+      "precision": 0.19969775300320322,
+      "recall": 0.22435733481068873,
+      "macro_f1": 0.2100138016679133,
+      "evaluated_frames": 31820,
+      "coverage": 0.9961805772963497,
+      "edit_video_mean": 0.5678191489361702,
+      "segment_f1_at_0.1": 0.46357615894039733,
+      "segment_f1_at_0.25": 0.37748344370860926,
+      "segment_f1_at_0.5": 0.18543046357615894
+    },
+    "C": {
+      "accuracy": 0.38456945317410435,
+      "precision": 0.1573113470399452,
+      "recall": 0.21042925088043635,
+      "macro_f1": 0.17706923551305867,
+      "evaluated_frames": 31820,
+      "coverage": 0.9961805772963497,
+      "edit_video_mean": 0.27794326241134754,
+      "segment_f1_at_0.1": 0.3231441048034934,
+      "segment_f1_at_0.25": 0.27074235807860264,
+      "segment_f1_at_0.5": 0.13100436681222707
+    }
+  },
+  "evaluation": "XML ground-truth track availability, full-frame model input; not team-2 tracking",
+  "metric_axis": "masked known-frame protocol inherited from round 2",
+  "test_previously_viewed_in_prior_experiments": true,
+  "test_based_selection": false
+}

@@ -1,0 +1,20 @@
+test_ambiguous_endpoints_never_fill_idle (test_contracts.Contracts.test_ambiguous_endpoints_never_fill_idle) ... ok
+test_conflicting_shared_endpoint_is_ignored (test_contracts.Contracts.test_conflicting_shared_endpoint_is_ignored) ... ok
+test_continuous_forbids_truth_but_allows_images (test_contracts.Contracts.test_continuous_forbids_truth_but_allows_images) ... ok
+test_hold_prediction_stops_at_first_track_gap (test_contracts.Contracts.test_hold_prediction_stops_at_first_track_gap) ... ok
+test_local_data_split_and_model (test_contracts.Contracts.test_local_data_split_and_model) ... ok
+test_macro_always_keeps_five_classes (test_contracts.Contracts.test_macro_always_keeps_five_classes) ... ok
+test_no_segment_merge_across_gap_or_device (test_contracts.Contracts.test_no_segment_merge_across_gap_or_device) ... ok
+test_short_clip_and_single_frame_do_not_escape (test_contracts.Contracts.test_short_clip_and_single_frame_do_not_escape) ... ok
+test_boundary_uncertainty_is_interval (test_round2.Round2Contracts.test_boundary_uncertainty_is_interval) ... ok
+test_causal_model_cannot_use_future_features (test_round2.Round2Contracts.test_causal_model_cannot_use_future_features) ... ok
+test_interval_sampling_does_not_scale_with_duration (test_round2.Round2Contracts.test_interval_sampling_does_not_scale_with_duration) ... ok
+test_latest_frame_and_short_repeat (test_round2.Round2Contracts.test_latest_frame_and_short_repeat) ... ok
+test_letterbox_preserves_content_ratio (test_round2.Round2Contracts.test_letterbox_preserves_content_ratio) ... ok
+test_prediction_generation_does_not_need_truth (test_round2.Round2Contracts.test_prediction_generation_does_not_need_truth) ... ok
+test_temporal_scores_perfect_and_oversegmented (test_round2.Round2Contracts.test_temporal_scores_perfect_and_oversegmented) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.903s
+
+OK

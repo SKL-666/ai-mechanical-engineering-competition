@@ -1,0 +1,17 @@
+{
+  "python": "3.11.16 (main, Sep  2 2026, 23:33:55) [Clang 21.1.8 ]",
+  "executable": "/Users/mac/Project/AI+\u673a\u68b0\u5de5\u7a0b\u5927\u8d5b/.venv/bin/python",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "chip": "Apple M4 Pro",
+  "cpu_cores": 12,
+  "gpu_cores": 16,
+  "memory_gb": 24,
+  "torch": "2.14.0",
+  "torchvision": "0.29.0",
+  "numpy": "2.4.6",
+  "Pillow": "12.3.0",
+  "cuda": false,
+  "mps_available": true,
+  "mps_forward_backward": "pass",
+  "environment": "project .venv with system-site-packages from food11; parent environment unmodified"
+}

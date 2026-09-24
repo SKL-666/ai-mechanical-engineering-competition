@@ -1,0 +1,98 @@
+[
+  {
+    "path": "earthmoving/metrics.py",
+    "sha256": "50f70618eaace4b7deb26a8712f6511b33c9f4872e248894a9d7b09c0c97650e"
+  },
+  {
+    "path": "earthmoving/round2_model.py",
+    "sha256": "588b305b6f7d0bfcb898b420ae64b3f0d61ac9655d927bfd6362f4a7c8f8dd51"
+  },
+  {
+    "path": "earthmoving/__init__.py",
+    "sha256": "8edb2bd50682c78cdcd64cbdad00152c6f6afc9ce76f159346fac503c5e90699"
+  },
+  {
+    "path": "earthmoving/model.py",
+    "sha256": "977babf1e2cd445c59ef7521b973e57a760a380e1112a4219c1bd8f0e935eba1"
+  },
+  {
+    "path": "earthmoving/round2_data.py",
+    "sha256": "b095be7c78885b2b529f1e63ef0c9c7e783321202c95afa1f7cf7dfdf5d66d02"
+  },
+  {
+    "path": "earthmoving/common.py",
+    "sha256": "4e28d0fbf08e5ec409af1e8b34478a5e2928b9329c45d8204487e492d2b05f8c"
+  },
+  {
+    "path": "earthmoving/round2_metrics.py",
+    "sha256": "819c4607ecc0fa9b2839a804f024b9ea3e86c3d58827f62f55177aa39c3a2fe7"
+  },
+  {
+    "path": "earthmoving/data.py",
+    "sha256": "132cef525c9978f5c55892cd00e6bc590949ad3d0077cb3ac88056cdbe730163"
+  },
+  {
+    "path": "scripts/evaluate_continuous.py",
+    "sha256": "e66a9b25d664bbde46312e842a2a97bd723a50fbf8500cb36f9f9355a86d79ed"
+  },
+  {
+    "path": "scripts/train_action.py",
+    "sha256": "14ba28c72e04c408a59d65527d6c958c582653268be251a6091695b03214d79d"
+  },
+  {
+    "path": "scripts/prepare_earthmoving.py",
+    "sha256": "4cdac372a5c621310465568be1580ee61cd49a71b2925d1c954d40e4e82ff436"
+  },
+  {
+    "path": "scripts/round2_continuous.py",
+    "sha256": "50fce3d044963d1afa2ed3a12f98c7fa7afc63b8be23be5dd1a7414dc99023d9"
+  },
+  {
+    "path": "scripts/round2_action.py",
+    "sha256": "91d12ee9dc140b94e1ec9ba904515e60937360c720db9dd5416fad45521c4120"
+  },
+  {
+    "path": "scripts/evaluate_action.py",
+    "sha256": "b459126df204a84b586069e1d883094bc51cc46075713ebbc695ad838cb26230"
+  },
+  {
+    "path": "scripts/smoke_action.py",
+    "sha256": "65e8d5cf06681d5078a65dc5e3c74aa78b3996c6f349e25ed2302c18d3f8f8fc"
+  },
+  {
+    "path": "scripts/audit_earthmoving.py",
+    "sha256": "dd97d2b0498872bef045af837cfff5dbf63ae49dcde049fc0ce0abefc010800a"
+  },
+  {
+    "path": "scripts/run_round2.py",
+    "sha256": "7c990a38474cec72e18456c652ca74d591fe1f5b35e296210ffc3ceebd7a35c3"
+  },
+  {
+    "path": "scripts/infer_continuous.py",
+    "sha256": "21317331c93192b051e88707c37b65bd98ed2c5b619d9765bfb5032914b72da2"
+  },
+  {
+    "path": "scripts/verify_delivery.py",
+    "sha256": "87b9c768e28cb024baa6883eed7f73161fd45f239e4fb82c4341511d8080ccc8"
+  },
+  {
+    "path": "tests/test_contracts.py",
+    "sha256": "991942ec4195ea50c210b2cbf8debccc7471e2e96122ebb02e1ef725e13624fe"
+  },
+  {
+    "path": "tests/test_round2.py",
+    "sha256": "dee9b80372f2937b6551a1f2a8c35ac1955cc711823165704208e5d3ebc7c1db"
+  },
+  {
+    "path": "configs/round2_protocol.json",
+    "sha256": "0a95a8ddbce4c619d0e5e0dc27ee06eb8c930a5c1ffadd3560457a23647bd0f1"
+  },
+  {
+    "path": "configs/baseline_smoke.json",
+    "sha256": "bb7d3fe91d064347236f0100a05fb6d7abdd20b9367aeb7ca28b7056fbf9dccd"
+  },
+  {
+    "path": "configs/environment.lock.txt",
+    "sha256": "04af8578f1aea6a47b7a18fd89ccf7a89b132860fc4386f65dc493485d18f389"
+  }
+]

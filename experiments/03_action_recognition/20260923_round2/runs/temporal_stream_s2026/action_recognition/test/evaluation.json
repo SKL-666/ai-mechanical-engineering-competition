@@ -1,0 +1,46 @@
+{
+  "subset": "test",
+  "checkpoint_sha256": "83f42a601ca6938d14b578c253e418f2d7d6cee35e0d52eff3a8b074efa29f18",
+  "metrics": {
+    "accuracy": 0.36470588235294116,
+    "precision": 0.2776190476190476,
+    "recall": 0.2681818181818182,
+    "macro_f1": 0.18753191489361704
+  },
+  "config": {
+    "model": "temporal",
+    "frames": 8,
+    "seed": 2026,
+    "epochs": 40,
+    "samples_per_epoch": 960,
+    "batch_size": 32,
+    "lr": 0.001,
+    "device": "mps",
+    "sampling": "intervals",
+    "training_mode": "stream",
+    "weighted": false,
+    "input_size": 96,
+    "letterbox": false,
+    "augment": false,
+    "crop": "per_frame",
+    "margin": 0.0,
+    "classes": [
+      "idle",
+      "swing_bucket",
+      "load_bucket",
+      "dump",
+      "move"
+    ],
+    "pretrained": false,
+    "data": "Earthmoving only",
+    "split_sha256": "5741a11b8098b29c7604e9454006544f63d67c23388785426286fa10ef585327",
+    "index_manifest_sha256": "67b5ece72e6a33bbe9afd5e7df9b279566b53b7c17d90bf06646f2f520846a7c",
+    "command": "/Users/mac/Project/AI+机械工程大赛/scripts/round2_action.py train --config /Users/mac/Project/AI+机械工程大赛/experiments/03_action_recognition/20260923_round2/configs/temporal_stream_s2026.json --out /Users/mac/Project/AI+机械工程大赛/experiments/03_action_recognition/20260923_round2/runs/temporal_stream_s2026/action_recognition",
+    "fps": 25,
+    "fps_basis": "publisher search excerpt; local cadence not independently verified",
+    "alignment": "four_hypothesis_consensus_v1",
+    "code_commit": null,
+    "deterministic_algorithms": true
+  },
+  "command": "/Users/mac/Project/AI+机械工程大赛/scripts/round2_action.py evaluate --checkpoint /Users/mac/Project/AI+机械工程大赛/experiments/03_action_recognition/20260923_round2/runs/temporal_stream_s2026/action_recognition/best.pt --out /Users/mac/Project/AI+机械工程大赛/experiments/03_action_recognition/20260923_round2/runs/temporal_stream_s2026/action_recognition/test --subset test"
+}

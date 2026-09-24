@@ -1,0 +1,35 @@
+# Local environment and editor files
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Source datasets and supplemental material (kept only on this machine)
+/Data/
+/Data_KIT/
+/Data_Rathan/
+*.zip
+
+# Generated indexes and caches; keep the frozen train/val/test split
+/derived/*
+!/derived/earthmoving_v1/
+/derived/earthmoving_v1/*
+!/derived/earthmoving_v1/split.json
+
+# Training checkpoints and tensor caches; keep lightweight experiment records
+/experiments/**/*.pt
+/experiments/**/*.pth
+/experiments/**/*.ckpt
+/experiments/**/*.npy
+/experiments/**/*.npz
+
+# Packaged demos and generated media for internal review
+/dist/
+/demo/assets/
+/web_demo/assets/
+
+# Downloaded third-party reference material
+/Docs/archive/数据集检索_2026-09-22/dataset_search_2026-09-22/

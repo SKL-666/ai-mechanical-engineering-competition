@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "scripts/evaluate_joint.py",
+      "sha256": "69e7d82dfd16fc5da125bb547d5039c510151ff39f516b06572d90351a0a2664"
+    },
+    {
+      "path": "scripts/infer_joint.py",
+      "sha256": "29a1cf81013f58b4b1d1ddd72ff84d1c8123acce563d3f3e68d798093bd1a9e0"
+    },
+    {
+      "path": "scripts/evaluate_joint_continuous.py",
+      "sha256": "b66fb36f3fcfaec7106048392b60b2f157d0be737feb76cd02f1ff04baa1395b"
+    },
+    {
+      "path": "scripts/round2_continuous.py",
+      "sha256": "50fce3d044963d1afa2ed3a12f98c7fa7afc63b8be23be5dd1a7414dc99023d9"
+    },
+    {
+      "path": "earthmoving/round2_metrics.py",
+      "sha256": "819c4607ecc0fa9b2839a804f024b9ea3e86c3d58827f62f55177aa39c3a2fe7"
+    }
+  ]
+}

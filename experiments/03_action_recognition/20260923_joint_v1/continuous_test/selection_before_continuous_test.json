@@ -1,0 +1,24 @@
+{
+  "rule": "best frozen clip validation Macro-F1 per arm; never test-selected",
+  "freeze_sha256": "d043951dee3efa6cc11e970fb946cc550f46f0582f1a8dde09c66e003574cc43",
+  "selection": {
+    "A": {
+      "run": "A_s42",
+      "val_macro_f1": 0.5858461538461538,
+      "checkpoint_sha256": "40c2328daccb87818e55ceecd136f86814e68490b2147c6feec0c20f692a6e4a"
+    },
+    "B": {
+      "run": "B_s3407",
+      "val_macro_f1": 0.4777213622291022,
+      "checkpoint_sha256": "2c1e9dd43c69ab3571c4044f1010130360bad32d9122fc44e2bb55f1b632e7d9"
+    },
+    "C": {
+      "run": "C_s3407",
+      "val_macro_f1": 0.2637639090469279,
+      "checkpoint_sha256": "53cd92d12618abdad1a65773076408e6072a8219701cc868f7af1173f1bcc595"
+    }
+  },
+  "stride": 8,
+  "ema_alpha": 1.0,
+  "postprocess_tuning_on_test": false
+}
